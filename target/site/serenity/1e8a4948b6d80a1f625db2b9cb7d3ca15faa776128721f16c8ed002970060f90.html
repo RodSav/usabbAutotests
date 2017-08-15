@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script>
+    <script class="code" type="text/javascript">$(document).ready(function () {
+
+        // Results table
+        $('#tag-list-table').DataTable( {
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 25
+        } );
+
+        $("test-list").tabs();
+    });
+    </script>
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Virco Automated Tests</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs"><a href="index.html">Home</a> 
+                > Features
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2017 14:09</span>
+    <br style="clear:left"/>
+</div>
+
+
+
+   <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <table>
+                 <tr>
+                   <td>
+                    <div id="test-list">
+                        <ul>
+                            <li><a href="test-list-1">Features</a></li>
+                        </ul>
+                    </div>
+                    <div id="test-list-1" class="table">
+                        <div class="test-results">
+                            <table id="tag-list-table">
+                                <thead>
+                                    <tr>
+                                        <th width="30" class="test-results-heading">&nbsp;</th>
+                                        <th width="750" class="test-results-heading">Feature</th>
+                                        <th width="70" class="test-results-heading">Tests</th>
+                                        <th width="70" class="test-results-heading">Steps</th>
+                                        <th width="65" class="test-results-heading">Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 1   pdp pricing</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="6a0b03871a4161381ab78554267ddfc473a94ee454eaf98c4b1ba82de58b98eb.html">Pdp 1   Pdp Pricing</a></td>
+
+                                        <td class="lightgreentext">5</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 10   configurations</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="940d2da9bb9f718fd2ae812713af5e76ea8969e0fa15059f659190d74ba7d969.html">Pdp 10   Configurations</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">5</td>
+
+                                        <td class="lightgreentext">0.119</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 11   descriptive path selection</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="557dc3e75d8d74efdd4485dead22233cdb0e1f6fa3ace56921ce7183bd382237.html">Pdp 11   Descriptive Path Selection</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 12   add/remove pdp</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="fe13a105091e5e6bceea93a4af56f4d4e5d6cc6a58e14ed72a0ba5f8f596da07.html">Pdp 12   Add/Remove Pdp</a></td>
+
+                                        <td class="lightgreentext">5</td>
+                                        <td class="lightgreentext">29</td>
+
+                                        <td class="lightgreentext">0.481</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 13   cross sell products</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="937dfaf38673d30840fd315a5379a120b4482f3523dad0132df240e0a38daf98.html">Pdp 13   Cross Sell Products</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">4</td>
+
+                                        <td class="lightgreentext">0.097</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 14   up sell products</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="42625be1b31de836d9091eadf2af451368455a78df48467e6480b15f7fdaa73a.html">Pdp 14   Up Sell Products</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">15</td>
+
+                                        <td class="lightgreentext">0.213</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 15   non standard colors</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="8f65e199f905585c7a40bf81d0c69d1f2349c2df5550638d624c5571e2e3b4f4.html">Pdp 15   Non Standard Colors</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 16   tools & assembly required</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="578b45c6f99ad99b1d8d2de4cd53f1e3e1119f76c60ec55000d201b9b663427e.html">Pdp 16   Tools & Assembly Required</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">0.149</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 2   image zoom</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="ce4b35c9bfabac4107a6f840dedf450b4392e180e0f1cce5e317b92b74d3d912.html">Pdp 2   Image Zoom</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">16</td>
+
+                                        <td class="lightgreentext">0.118</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 3   mouse over</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-ERROR">
+                                        <td><span class="summary-icon"/><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span><span style="display:none">ERROR</span></td>
+                                        <td class="ERROR-text"><a href="b2ce40ec6d19ebb7af2a3cc2376b8f8332591aa4cdbf1a13ebe3720eaa880ab3.html">Pdp 3   Mouse Over</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">6</td>
+
+                                        <td class="lightgreentext">0.058</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 4   product specifications</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="3b508733eb3b2d02e72e51bb01a32c054a9dcb4803012eea3e6e4548b56e6a24.html">Pdp 4   Product Specifications</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 5   tier 1 and 2 pricing</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="02cb492d74cf90bddd06df7ebd498afe64ef9a08321e8a74f8757a9a1322488c.html">Pdp 5   Tier 1 And 2 Pricing</a></td>
+
+                                        <td class="lightgreentext">1</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 7   family series</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="816aeead277ed37a57f91a0daa2e73e0f30e3fa20df273402b2f569a09f25c46.html">Pdp 7   Family Series</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 8   grade level</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="f146954da5e24329765f799fd0c69ce024763fd7abb0a6444c3e53dc9c436ac4.html">Pdp 8   Grade Level</a></td>
+
+                                        <td class="lightgreentext">2</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Pdp 9   view specifications</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-PENDING">
+                                        <td><span class="summary-icon"/><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span><span style="display:none">PENDING</span></td>
+                                        <td class="PENDING-text"><a href="af1eac51ef848ac69c1ceb6889881c25432014e31d78cdca3cba7a39a0c16c19.html">Pdp 9   View Specifications</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">0</td>
+
+                                        <td class="lightgreentext">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   </td>
+                  </tr>
+                 </table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

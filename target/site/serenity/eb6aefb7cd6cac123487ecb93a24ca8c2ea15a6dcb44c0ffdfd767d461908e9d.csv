@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CMP-5 - Manage School Categories","VIR-272.01 Verify that the Chief can set category permission for each school separately","PENDING","2017-08-11T14:08:00.033+03:00","0.0","0.0"
+"CMP-5 - Manage School Categories","VIR-272.02 Verify that the list of categories are shown as the check boxes within Categories section for the Business Unit permission","PENDING","2017-08-11T14:08:00.123+03:00","0.0","0.0"
+"CMP-5 - Manage School Categories","VIR-272.03 Verify that the category check boxes are checked in by default to view all categories","PENDING","2017-08-11T14:08:00.509+03:00","0.0","0.0"
+"CMP-5 - Manage School Categories","VIR-272.04 Verify that the deselected categories are not shown for the admin/staff shoppers assigned to the business unit at the following pages","PENDING","2017-08-11T14:08:00.734+03:00","0.0","0.0"

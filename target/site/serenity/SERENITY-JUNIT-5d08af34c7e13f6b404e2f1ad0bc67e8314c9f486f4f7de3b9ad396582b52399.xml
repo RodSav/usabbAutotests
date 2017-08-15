@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="PLD - Global Elements - Footer" skipped="0" tests="4" time="0.23" timestamp="2017-08-223 02:08:19"><testcase name="VIR-302.01 Verify Shop with confidence at Virco Mfg. Corporation title"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-302.02 Verify We accept the following payment types title"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-302.03 Verify NEED HELP? 1 800 448 4726 title"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-302.04 Verify Follow Us title"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

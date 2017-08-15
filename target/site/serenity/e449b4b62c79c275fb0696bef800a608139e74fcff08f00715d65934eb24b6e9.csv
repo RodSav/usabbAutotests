@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CART-3 - Product Links","VIR-320.01 Verify that the link to the added product to the cart is shown to the shopper on the cart page","ERROR","2017-08-11T14:08:28.014+03:00","0.0","0.06"
+"CART-3 - Product Links","VIR-320.02 Verify that clicking on the link the shopper is moved to the product page","ERROR","2017-08-11T14:08:28.097+03:00","0.0","0.06"
+"CART-3 - Product Links","VIR-320.03 Verify that the shopper can continue the shopping by clicking on Continue Shopping page","ERROR","2017-08-11T14:08:28.171+03:00","0.0","0.05"
+"CART-3 - Product Links","VIR-320.04 Verify that the shopper is moved to the last product page which was viewed","ERROR","2017-08-11T14:08:28.257+03:00","0.0","0.06"

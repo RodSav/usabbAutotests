@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="GE-13 - Global Search/Contract" skipped="1" tests="3" time="0.13" timestamp="2017-08-223 02:08:15"><testcase name="VIR-256.01 Verify that the Search Bar is shown to the shopper from the right header"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-256.02 Verify that the contract is shown next after search bar on the header"><skipped/></testcase><testcase name="VIR-256.03 Verify that the Search Bar/contract are shown on navigating through the site"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

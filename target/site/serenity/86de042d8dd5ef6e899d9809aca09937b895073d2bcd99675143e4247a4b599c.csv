@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CART-10 - Mini-Cart","VIR-326.01 Verify that the last 5 line items from the cart is shown to the customer if they hover the cart icon","ERROR","2017-08-11T14:08:27.566+03:00","0.0","0.08"
+"CART-10 - Mini-Cart","VIR-326.02 Verify that the Cart is shown if click Checkout","ERROR","2017-08-11T14:08:27.662+03:00","0.0","0.06"
+"CART-10 - Mini-Cart","VIR-326.03 Verify that the Cart Mini is closed if click Continue Shopping","ERROR","2017-08-11T14:08:27.724+03:00","0.0","0.05"
+"CART-10 - Mini-Cart","VIR-326.04 Verify that the following information is shown for the line items","SUCCESS","2017-08-11T14:08:27.780+03:00","0.0","0.0"

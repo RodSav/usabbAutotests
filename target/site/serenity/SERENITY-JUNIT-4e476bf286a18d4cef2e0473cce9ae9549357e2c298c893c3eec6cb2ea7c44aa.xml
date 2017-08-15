@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="GE-12 - Copyright" skipped="0" tests="1" time="0.08" timestamp="2017-08-223 02:08:15"><testcase name="VIR-255.01 Verify that the virco copyright text &quot;c 2017 Vicro. All Right Reserved&quot; is shown at the footer right bottom"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

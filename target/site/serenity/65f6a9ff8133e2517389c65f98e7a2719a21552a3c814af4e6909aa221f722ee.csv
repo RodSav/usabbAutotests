@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PDP-14 - Up-Sell Products","VIR-144.01 Verify that the similar products are shown to the customer","ERROR","2017-08-11T14:08:22.710+03:00","0.0","0.07"
+"PDP-14 - Up-Sell Products","VIR-144.02 Verify that the customer can add the similar product to the cart","ERROR","2017-08-11T14:08:22.898+03:00","0.0","0.06"
+"PDP-14 - Up-Sell Products","VIR-483 Missing product price in Up/Cross sell pop-up","ERROR","2017-08-11T14:08:22.990+03:00","0.0","0.09"

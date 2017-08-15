@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"GE-7 - Top Category Navigation","VIR-121.01 Verify that the Main menu has the following categories","ERROR","2017-08-11T14:08:18.250+03:00","0.0","0.05"
+"GE-7 - Top Category Navigation","VIR-121.02 Verify that appropriate category page is opened","ERROR","2017-08-11T14:08:18.377+03:00","0.0","0.14"

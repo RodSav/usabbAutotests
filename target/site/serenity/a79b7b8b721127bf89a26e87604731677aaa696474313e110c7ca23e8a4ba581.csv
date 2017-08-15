@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CNT-9 - Contact Information","VIR-136.02 Verify that Content Admin can change the following Contact Us info","ERROR","2017-08-11T14:08:14.687+03:00","0.0","0.07"
+"CNT-9 - Contact Information","VIR-136.03 Verify that the Contact Us info is updated accordingly on the site","ERROR","2017-08-11T14:08:14.875+03:00","0.0","0.05"
+"CNT-9 - Contact Information","VIR-136.04 Return changes","ERROR","2017-08-11T14:08:15.072+03:00","0.0","0.05"

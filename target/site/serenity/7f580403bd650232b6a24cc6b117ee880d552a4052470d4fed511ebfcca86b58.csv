@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"ACT-2 - Service Level Selection","VIR-227.01 Verify that the customer can view the service level field right of the contract drop down","ERROR","2017-08-11T14:07:17.812+03:00","0.0","0.22"
+"ACT-2 - Service Level Selection","VIR-227.02 Verify that the shopper can view the following service level options in the dropdown field","ERROR","2017-08-11T14:07:18.344+03:00","0.0","0.18"
+"ACT-2 - Service Level Selection","VIR-227.03 Verify that the Tailgate service level option is selected by default","ERROR","2017-08-11T14:07:18.860+03:00","0.0","0.09"
+"ACT-2 - Service Level Selection","VIR-227.04 Verify that the customer can set any service level from the shown options","ERROR","2017-08-11T14:07:19.350+03:00","0.0","0.16"

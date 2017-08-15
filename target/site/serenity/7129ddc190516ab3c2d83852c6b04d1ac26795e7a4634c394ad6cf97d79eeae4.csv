@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CAT-4 - Page Navigation","VIR-139.01 Verify that the first/last/next pages are shown above and below the list of products","ERROR","2017-08-11T14:07:44.504+03:00","0.0","0.17"
+"CAT-4 - Page Navigation","VIR-139.02 Verify that the customer is able to navigate through the previous, next, last pages on Category page","ERROR","2017-08-11T14:07:44.786+03:00","0.0","0.2"
+"CAT-4 - Page Navigation","VIR-139.03 Verify that the customer is able to navigate through the previous, next, last pages on Search result page","ERROR","2017-08-11T14:07:45.049+03:00","0.0","0.27"
+"CAT-4 - Page Navigation","VIR-139.04 Verify that the previous/ first page is disabled, when customer is on the first pages for Category page","ERROR","2017-08-11T14:07:45.392+03:00","0.0","0.13"
+"CAT-4 - Page Navigation","VIR-139.05 Verify that the previous/ first page is disabled, when customer is on the first pages for Search result page","ERROR","2017-08-11T14:07:45.600+03:00","0.0","0.08"
+"CAT-4 - Page Navigation","VIR-139.06 Verify that the next/last page button is disabled, when customer is on the last pages for Category page","ERROR","2017-08-11T14:07:45.762+03:00","0.0","0.1"
+"CAT-4 - Page Navigation","VIR-139.07 Verify that the next/last page button is disabled when customer is on the last page for Search result page","ERROR","2017-08-11T14:07:45.917+03:00","0.0","0.13"

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.virco.CompanyManagementTestSuite" time="2.606" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2017.1.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.country.format" value="UA"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/rodionsavchuk/hybrisAutomation/virco-automatedtests"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/rodionsavchuk/hybrisAutomation/virco-automatedtests"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_q/_7d1f_ys5hg5_f_jfs3jqgdm0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rodionsavchuk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/rodionsavchuk"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="rodionsavchuk"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.5 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="/Users/rodionsavchuk/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Scenario: VIR-269.01 Verify that the Chief can assign the role to the shopper" classname="Scenario: VIR-269.01 Verify that the Chief can assign the role to the shopper" time="0"/>
+  <testcase name="Scenario: VIR-269.02 Verify that the Chief can change the role to the shopper" classname="Scenario: VIR-269.02 Verify that the Chief can change the role to the shopper" time="0"/>
+  <testcase name="Scenario: VIR-269.03 Verify that the Chief can assign permission to the admin/stuff shoppers for the" classname="Scenario: VIR-269.03 Verify that the Chief can assign permission to the admin/stuff shoppers for the" time="0"/>
+  <testcase name="Scenario: VIR-270.01 Verify that the Chief can assign the user to one of the following user group within My Company → Users" classname="Scenario: VIR-270.01 Verify that the Chief can assign the user to one of the following user group within My Company → Users" time="0"/>
+  <testcase name="Scenario: VIR-270.02 Verify that the user has the appropriate assigned group permissions" classname="Scenario: VIR-270.02 Verify that the user has the appropriate assigned group permissions" time="0"/>
+  <testcase name="Scenario: VIR-271.01 Verify that the Chief can configure buying authorities within My Company →Users" classname="Scenario: VIR-271.01 Verify that the Chief can configure buying authorities within My Company →Users" time="0"/>
+  <testcase name="Scenario: VIR-271.02 Verify that the Chief can set permissions to the users separately" classname="Scenario: VIR-271.02 Verify that the Chief can set permissions to the users separately" time="0.001"/>
+  <testcase name="Scenario: VIR-271.03 Verify that the Chief can set permissions to the bulk users by setting permissions to the group" classname="Scenario: VIR-271.03 Verify that the Chief can set permissions to the bulk users by setting permissions to the group" time="0"/>
+  <testcase name="Scenario: VIR-271.04 Verify that the permissions are applied to the user/users" classname="Scenario: VIR-271.04 Verify that the permissions are applied to the user/users" time="0"/>
+  <testcase name="Scenario: VIR-272.01 Verify that the Chief can set category permission for each school separately" classname="Scenario: VIR-272.01 Verify that the Chief can set category permission for each school separately" time="0"/>
+  <testcase name="Scenario: VIR-272.02 Verify that the list of categories are shown as the check boxes within Categories section for the Business Unit permission" classname="Scenario: VIR-272.02 Verify that the list of categories are shown as the check boxes within Categories section for the Business Unit permission" time="0.004"/>
+  <testcase name="Scenario: VIR-272.03 Verify that the category check boxes are checked in by default to view all categories" classname="Scenario: VIR-272.03 Verify that the category check boxes are checked in by default to view all categories" time="0.123"/>
+  <testcase name="Scenario: VIR-272.04 Verify that the deselected categories are not shown for the admin/staff shoppers assigned to the business unit at the following pages" classname="Scenario: VIR-272.04 Verify that the deselected categories are not shown for the admin/staff shoppers assigned to the business unit at the following pages" time="0.243"/>
+  <testcase name="Scenario: VIR-273.01 Verify that the Chief can set color permission for each school separately" classname="Scenario: VIR-273.01 Verify that the Chief can set color permission for each school separately" time="0.296"/>
+  <testcase name="Scenario: VIR-273.02 Verify that the list of colors are shown as the check boxes within Categories section for the Business Unit permission" classname="Scenario: VIR-273.02 Verify that the list of colors are shown as the check boxes within Categories section for the Business Unit permission" time="0.408"/>
+  <testcase name="Scenario: VIR-273.03 Verify that the colors check boxes are checked in by default to view all colors" classname="Scenario: VIR-273.03 Verify that the colors check boxes are checked in by default to view all colors" time="0.355"/>
+  <testcase name="Scenario: VIR-273.04 Verify that the deselected colors are not shown for the admin/staff shoppers assigned to the business unit at the following pages" classname="Scenario: VIR-273.04 Verify that the deselected colors are not shown for the admin/staff shoppers assigned to the business unit at the following pages" time="0.251"/>
+  <testcase name="Scenario: VIR-273.05 Verify that if all colors are deselected the base color is allowed to the business unit/school, the model with base color is shown to the shopper from this unit/school" classname="Scenario: VIR-273.05 Verify that if all colors are deselected the base color is allowed to the business unit/school, the model with base color is shown to the shopper from this unit/school" time="0.159"/>
+  <testcase name="Scenario: VIR-273.06 Verify that if all colors are deselected the base color is not allowed to the business unit/school, the model with base color is not shown to the shopper from this unit/school" classname="Scenario: VIR-273.06 Verify that if all colors are deselected the base color is not allowed to the business unit/school, the model with base color is not shown to the shopper from this unit/school" time="0.145"/>
+  <testcase name="Scenario: VIR-274.01 Verify that the products within disallowed color/category is not shown to the shopper for appropriate unit/school at the following pages" classname="Scenario: VIR-274.01 Verify that the products within disallowed color/category is not shown to the shopper for appropriate unit/school at the following pages" time="0.119"/>
+  <testcase name="Scenario: VIR-274.02 Verify that the color and category availability for the school can be managed via impex" classname="Scenario: VIR-274.02 Verify that the color and category availability for the school can be managed via impex" time="0.208"/>
+  <testcase name="Scenario: VIR-274.03 Verify that the admin users " classname="Scenario: VIR-274.03 Verify that the admin users (content Admin, product admin, product manager, web site admin) have an access to the HAC for impex" time="0.294"/>
+</testsuite>

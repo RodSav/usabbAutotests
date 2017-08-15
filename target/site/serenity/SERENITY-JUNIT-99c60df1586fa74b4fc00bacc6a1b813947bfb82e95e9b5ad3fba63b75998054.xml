@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="9" failures="0" name="GE-7 - Top Category Navigation" skipped="0" tests="9" time="0.19" timestamp="2017-08-223 02:08:18"><testcase name="VIR-121.01 Verify that the Main menu has the following categories"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-121.02 Verify that appropriate category page is opened"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CNT-6 - Content Slots","VIR-133.01 Verify that the content admin can delete the banner, title and categories through the WCMS","ERROR","2017-08-11T14:08:10.271+03:00","0.0","0.22"
+"CNT-6 - Content Slots","VIR-133.02 Verify that the content admin can add the banner, title and categories through the WCMS","ERROR","2017-08-11T14:08:10.642+03:00","0.0","0.25"
+"CNT-6 - Content Slots","VIR-133.03 Verify that the content admin can edit the banner, title and categories through the WCMS","ERROR","2017-08-11T14:08:10.999+03:00","0.0","0.19"
+"CNT-6 - Content Slots","VIR-133.04 Verify that the Banner is shown to the shopper on the home page","ERROR","2017-08-11T14:08:11.355+03:00","0.0","0.29"
+"CNT-6 - Content Slots","VIR-133.05 Verify that the text is overlaid on the banner","ERROR","2017-08-11T14:08:11.707+03:00","0.0","0.17"
+"CNT-6 - Content Slots","VIR-133.06 Verify that the Page title ""Products by Category"" is shown to the shopper","ERROR","2017-08-11T14:08:12.000+03:00","0.0","0.15"
+"CNT-6 - Content Slots","VIR-133.07 Verify that the following page categories are shown","ERROR","2017-08-11T14:08:12.247+03:00","0.0","0.07"

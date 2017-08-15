@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CMP-6 - Manage School Colors","VIR-273.01 Verify that the Chief can set color permission for each school separately","PENDING","2017-08-11T14:08:00.977+03:00","0.0","0.0"
+"CMP-6 - Manage School Colors","VIR-273.02 Verify that the list of colors are shown as the check boxes within Categories section for the Business Unit permission","PENDING","2017-08-11T14:08:01.273+03:00","0.0","0.0"
+"CMP-6 - Manage School Colors","VIR-273.03 Verify that the colors check boxes are checked in by default to view all colors","PENDING","2017-08-11T14:08:01.681+03:00","0.0","0.0"
+"CMP-6 - Manage School Colors","VIR-273.04 Verify that the deselected colors are not shown for the admin/staff shoppers assigned to the business unit at the following pages","PENDING","2017-08-11T14:08:02.036+03:00","0.0","0.0"
+"CMP-6 - Manage School Colors","VIR-273.05 Verify that if all colors are deselected the base color is allowed to the business unit/school, the model with base color is shown to the shopper from this unit/school","PENDING","2017-08-11T14:08:02.288+03:00","0.0","0.0"
+"CMP-6 - Manage School Colors","VIR-273.06 Verify that if all colors are deselected the base color is not allowed to the business unit/school, the model with base color is not shown to the shopper from this unit/school","PENDING","2017-08-11T14:08:02.446+03:00","0.0","0.0"

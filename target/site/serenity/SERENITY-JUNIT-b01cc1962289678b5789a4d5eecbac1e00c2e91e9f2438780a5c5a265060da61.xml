@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="GE-6 - Payment Badges" skipped="0" tests="6" time="0.22" timestamp="2017-08-223 02:08:17"><testcase name="VIR-120.01 Verify that the following accepted payment types are shown to the customer in the footer of the site"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase></testsuite>

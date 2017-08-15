@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="GE-2 - Badges" skipped="0" tests="2" time="0.17" timestamp="2017-08-223 02:08:16"><testcase name="VIR-116.01 Verify that the badges (logo) is shown for the customer at the header"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-116.02 Verify that the clicking on badges the system opens the Home page"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

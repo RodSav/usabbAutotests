@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="7" failures="0" name="CNT-6 - Content Slots" skipped="0" tests="7" time="1.33" timestamp="2017-08-223 02:08:10"><testcase name="VIR-133.01 Verify that the content admin can delete the banner, title and categories through the WCMS"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-133.02 Verify that the content admin can add the banner, title and categories through the WCMS"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-133.03 Verify that the content admin can edit the banner, title and categories through the WCMS"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-133.04 Verify that the Banner is shown to the shopper on the home page"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-133.05 Verify that the text is overlaid on the banner"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-133.06 Verify that the Page title &quot;Products by Category&quot; is shown to the shopper"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-133.07 Verify that the following page categories are shown"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

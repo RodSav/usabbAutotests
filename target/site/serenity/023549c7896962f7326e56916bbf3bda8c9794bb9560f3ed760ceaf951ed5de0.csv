@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"ACT-17 - My Account View Options","VIR-242.01 Verify that the following sub menu My Account menu has following options","ERROR","2017-08-11T14:07:04.024+03:00","0.0","0.54"
+"ACT-17 - My Account View Options","VIR-242.02 Verify that the shopper is moved to the appropriate page after clicking on the sub-menu option","ERROR","2017-08-11T14:07:04.969+03:00","0.0","0.47"

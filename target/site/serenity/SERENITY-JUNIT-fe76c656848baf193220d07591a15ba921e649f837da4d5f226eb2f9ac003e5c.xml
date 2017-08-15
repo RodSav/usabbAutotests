@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="CNT-8 - Order Information" skipped="0" tests="6" time="0.54" timestamp="2017-08-223 02:08:13"><testcase name="VIR-135.01 Verify that the Ordering Information page is opened after click on its link in footer"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-135.02 Verify that the content admin can delete the content pages"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-135.03 Verify that the content admin can add content pages"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-135.04 Verify that the content admin can edit content pages"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-135.05 Verify that the content admin can manage where the page is shown"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-135.06 Return changes for Ordering Information"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase></testsuite>

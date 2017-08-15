@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="18" failures="0" name="Smoke Check List" skipped="0" tests="18" time="1.24" timestamp="2017-08-223 02:08:29"><testcase name="SMOKE1.04 Verify that productmanager can login to the PIM"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:29)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="Preconditions for PIM tests"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="SMOKE1.05-06 Verify that productmanager can change product description"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:29)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.11 Verify the changes of the product from step Scenario"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="SMOKE1.07 Verify that productmanager can logout from PIM"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:29)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.01 Verify that cmsmanager can login to the CMS"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.02 Verify that cmsmanager can change the page view"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.03 Verify that cmsmanager can logout from CMS"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.08 Verify that user can open storefront"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.09 Verify that user can login to the storefront"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.10 Verify the changes at the page from step SMOKE1.02"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.12 Verify that product can be added to the cart"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.13 Verify that customer can create the order"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.14 Verify that shopper can logout from the storefront"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:35)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.15 Verify that admin can login to the Backoffice"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:32)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.16 Verify the created order from step SMOKE1.13 in backoffice"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:32)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.17 Verify that admin can logout from the backoffice"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:32)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="SMOKE1.18 Delete test data/changes created on steps 2, 5, 15"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase></testsuite>

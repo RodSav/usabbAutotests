@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="8" failures="0" name="ACT-17 - My Account View Options" skipped="0" tests="8" time="1.01" timestamp="2017-08-223 02:07:04"><testcase name="VIR-242.01 Verify that the following sub menu My Account menu has following options"><error type="java.lang.ExceptionInInitializerError"/><system-err>null
+com.virco.locators.SiteData.&lt;clinit&gt;(SiteData.java:9)
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-242.02 Verify that the shopper is moved to the appropriate page after clicking on the sub-menu option"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase></testsuite>

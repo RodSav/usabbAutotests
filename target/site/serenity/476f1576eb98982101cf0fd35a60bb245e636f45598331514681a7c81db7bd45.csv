@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CART-9 - Cart Quantity","VIR-325.01 Verify that the total quantity of items are shown on the cart","ERROR","2017-08-11T14:08:28.697+03:00","0.0","0.07"
+"CART-9 - Cart Quantity","VIR-325.02 Verify that the quantity is based on the item level","ERROR","2017-08-11T14:08:28.818+03:00","0.0","0.1"

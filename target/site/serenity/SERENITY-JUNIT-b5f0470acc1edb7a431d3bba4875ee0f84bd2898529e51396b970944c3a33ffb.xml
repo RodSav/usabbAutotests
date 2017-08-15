@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="CART-4 - Delete SKU" skipped="0" tests="3" time="0.2" timestamp="2017-08-223 02:08:28"><testcase name="VIR-321.01 Verify that the delete button is shown per each record from the cart"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-321.02 Verify that the deleted record is removed from the cart and total is recalculated appropriately"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-321.03 Verify that the recalculated total is shown at the mini cart on the Cart badge"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase></testsuite>

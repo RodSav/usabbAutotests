@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="CART-10 - Mini-Cart" skipped="0" tests="4" time="0.18" timestamp="2017-08-223 02:08:27"><testcase name="VIR-326.01 Verify that the last 5 line items from the cart is shown to the customer if they hover the cart icon"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-326.02 Verify that the Cart is shown if click Checkout"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-326.03 Verify that the Cart Mini is closed if click Continue Shopping"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-326.04 Verify that the following information is shown for the line items"/></testsuite>

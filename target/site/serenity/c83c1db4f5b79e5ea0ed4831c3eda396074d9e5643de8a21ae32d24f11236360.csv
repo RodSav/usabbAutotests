@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"SRC-1 - Free Text Search","VIR-257.01 Verify that the dropdown is shown with indexed matches, when shopper enter a keyword into the search field","PENDING","2017-08-11T14:08:27.095+03:00","0.0","0.0"
+"SRC-1 - Free Text Search","VIR-257.02 Verify that the shopper can move though the indexed matches by using Arrow keys on the keyboard","PENDING","2017-08-11T14:08:27.149+03:00","0.0","0.0"
+"SRC-1 - Free Text Search","VIR-257.03 Verify that the shopper can select the term by pressing Enter key on the keyboard","PENDING","2017-08-11T14:08:27.253+03:00","0.0","0.0"
+"SRC-1 - Free Text Search","VIR-257.04 Verify that the indexed matches are shown in the dropdown","PENDING","2017-08-11T14:08:27.317+03:00","0.0","0.0"
+"SRC-1 - Free Text Search","VIR-257.05 Verify that the Product Details page is shown when select the term","PENDING","2017-08-11T14:08:27.387+03:00","0.0","0.0"
+"SRC-1 - Free Text Search","VIR-257.06 Verify that the search is performed within the item's name","PENDING","2017-08-11T14:08:27.454+03:00","0.0","0.0"

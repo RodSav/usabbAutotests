@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="PDP-10 - Configurations" skipped="2" tests="3" time="0.12" timestamp="2017-08-223 02:08:21"><testcase name="VIR-267.01 Verify that the following information is shown at the slot 3"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-267.02 Verify that the proper data are shown for the product"><skipped/></testcase><testcase name="VIR-267.03 Verify that the third row content slot is shown for the product when the product has at least one of these attributes"><skipped/></testcase></testsuite>

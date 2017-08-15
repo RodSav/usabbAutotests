@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PDP-12 - Add/Remove PDP","VIR-268.01 Verify that the customer can select the quantity of items before adding to the cart on the product details page","ERROR","2017-08-11T14:08:21.834+03:00","0.0","0.12"
+"PDP-12 - Add/Remove PDP","VIR-268.02 Verify that the customer can add quantity by dropdown","ERROR","2017-08-11T14:08:21.974+03:00","0.0","0.12"
+"PDP-12 - Add/Remove PDP","VIR-268.03 Verify that the customer can add the quantity manually","ERROR","2017-08-11T14:08:22.115+03:00","0.0","0.05"
+"PDP-12 - Add/Remove PDP","VIR-268.04 Verify that the quantity is automatically moved to 1 if customer enters 0","ERROR","2017-08-11T14:08:22.212+03:00","0.0","0.07"
+"PDP-12 - Add/Remove PDP","VIR-268.05 Verify that the customer is not able to add more items than 9,999 in one order","ERROR","2017-08-11T14:08:22.323+03:00","0.0","0.13"

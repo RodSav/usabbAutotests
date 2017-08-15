@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"ACT-22 - View Personal Details","VIR-247.01 Verify that the shopper can see their personal details within My Account","ERROR","2017-08-11T14:07:16.403+03:00","0.0","0.23"
+"ACT-22 - View Personal Details","VIR-247.02 Verify that the information is shown on Personal Details page","ERROR","2017-08-11T14:07:16.784+03:00","0.0","0.22"
+"ACT-22 - View Personal Details","VIR-247.03 Verify that the shopper can edit the following personal details","ERROR","2017-08-11T14:07:17.202+03:00","0.0","0.2"

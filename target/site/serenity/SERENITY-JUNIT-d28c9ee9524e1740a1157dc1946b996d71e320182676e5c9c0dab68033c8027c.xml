@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="CART-2 - Cart Data" skipped="0" tests="2" time="0.09" timestamp="2017-08-223 02:08:27"><testcase name="VIR-319.01 Verify that the items have the following information shown additionally at the shopping cart"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase><testcase name="VIR-319.02 Verify that the shown data is valid"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSite(CommonDefinitionSteps.java:17)
+</system-err></testcase></testsuite>

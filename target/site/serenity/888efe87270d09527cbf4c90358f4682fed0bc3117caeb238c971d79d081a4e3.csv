@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"GE-2 - Badges","VIR-116.01 Verify that the badges (logo) is shown for the customer at the header","ERROR","2017-08-11T14:08:16.725+03:00","0.0","0.1"
+"GE-2 - Badges","VIR-116.02 Verify that the clicking on badges the system opens the Home page","ERROR","2017-08-11T14:08:16.878+03:00","0.0","0.07"

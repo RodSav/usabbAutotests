@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CNT-2 - Component Maintenance","VIR-166.01 Verify the rotating carousel is added on the home page","ERROR","2017-08-11T14:08:04.451+03:00","0.0","0.05"
+"CNT-2 - Component Maintenance","VIR-166.02 Verify that the each Banner has Rotating Theme, promotional message and installation slots","ERROR","2017-08-11T14:08:04.523+03:00","0.0","0.08"
+"CNT-2 - Component Maintenance","VIR-166.03 Verify that the changes applied to the home page on the WCMS are shown on the site","ERROR","2017-08-11T14:08:04.623+03:00","0.0","0.13"
+"CNT-2 - Component Maintenance","VIR-166.04 Verify changes on the site","ERROR","2017-08-11T14:08:04.828+03:00","0.0","0.12"
+"CNT-2 - Component Maintenance","VIR-166.06 Return changes for carousel","ERROR","2017-08-11T14:08:05.175+03:00","0.0","0.17"

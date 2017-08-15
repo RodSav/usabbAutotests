@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"PDP-2 - Image Zoom","VIR-140.01 Verify that the customer can use rotating zoom on the product images","ERROR","2017-08-11T14:08:24.145+03:00","0.0","0.06"
+"PDP-2 - Image Zoom","VIR-140.02 Verify that the customer can close rotating zoom on the product images","ERROR","2017-08-11T14:08:24.318+03:00","0.0","0.05"

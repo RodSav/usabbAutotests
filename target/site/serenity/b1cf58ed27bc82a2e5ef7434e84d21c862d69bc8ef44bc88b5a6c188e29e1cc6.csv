@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"CAT-1 - Grid/List View Toggle","VIR-137.01 Verify that the toggle button is shown above the products","ERROR","2017-08-11T14:07:37.866+03:00","0.0","0.38"
+"CAT-1 - Grid/List View Toggle","VIR-137.02 Verify that the customer can switch the view of products into grid, list","ERROR","2017-08-11T14:07:38.259+03:00","0.0","0.16"
+"CAT-1 - Grid/List View Toggle","VIR-137.03 Verify that in the grid view the following product info is shown","ERROR","2017-08-11T14:07:38.595+03:00","0.0","0.32"
+"CAT-1 - Grid/List View Toggle","VIR-137.04 Verify that in the List view the following info is shown","ERROR","2017-08-11T14:07:38.946+03:00","0.0","0.27"
+"CAT-1 - Grid/List View Toggle","VIR-137.05 Verify that the list of products is the same in both views","ERROR","2017-08-11T14:07:39.263+03:00","0.0","0.28"
+"CAT-1 - Grid/List View Toggle","VIR-790.01 Verify that the customer can switch the view of products into grid, list on search page","ERROR","2017-08-11T14:07:38.433+03:00","0.0","0.15"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="5" failures="0" name="CNT-4 - Security Compliance" skipped="0" tests="5" time="1.18" timestamp="2017-08-223 02:08:06"><testcase name="VIR-375.01 Unable to open the &quot;Verisign terms and policy&quot; page except through the Contact Us page"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
+com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
+</system-err></testcase><testcase name="VIR-131.02 Verify that the content Admin can delete terms, security and compliance"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-131.03 Verify that the content Admin can add terms, security and compliance"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-131.04 Verify that the content Admin can edit terms, security and compliance"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase><testcase name="VIR-131.05 Return changes"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
+com.virco.steps.serenity.CommonUserSteps.openManagementPage(CommonUserSteps.java:26)
+com.virco.steps.CommonDefinitionSteps.openPage(CommonDefinitionSteps.java:22)
+</system-err></testcase></testsuite>
