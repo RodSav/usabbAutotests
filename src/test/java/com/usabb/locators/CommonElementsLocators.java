@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/8/17.
- */
 public interface CommonElementsLocators {
 
     String LOGIN_INPUT_FIELD = "//input[contains(@name,'username')]";

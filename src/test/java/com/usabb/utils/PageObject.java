@@ -10,9 +10,6 @@ import java.util.concurrent.TimeUnit;
 
 import static net.serenitybdd.core.selectors.Selectors.xpathOrCssSelector;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/14/17.
- */
 public abstract class PageObject extends net.serenitybdd.core.pages.PageObject {
 
     @Override

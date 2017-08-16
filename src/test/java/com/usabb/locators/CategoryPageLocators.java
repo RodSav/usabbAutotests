@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/19/17.
- */
 public interface CategoryPageLocators {
     String PAGINATION_BOT_AND_TOP = "(//ul[@class='pagination'])[$1]";
     String PAGINATION_INPUT_FIELD_TOP = "(//div[contains(@class,'number-page')]//input[@name='pageView'])[1]";

@@ -12,9 +12,6 @@ import org.slf4j.LoggerFactory;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/9/17.
- */
 public class CockpitUtils extends PageObject {
 
     private static final Logger logger = LoggerFactory.getLogger(CockpitUtils.class);

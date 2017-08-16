@@ -5,9 +5,6 @@ import com.usabb.locators.SearchLocators;
 import com.usabb.utils.PageObject;;
 import org.openqa.selenium.Keys;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class SearchPage extends PageObject {
 
     public void searchForProductUsingSearchBar(String arg0) {

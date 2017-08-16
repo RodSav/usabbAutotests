@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public interface ProductDetailsPageLocators {
     String PRODUCT_MAIN_IMAGE = "(//div[@class='item']//img)[1]";
     String PRODUCT_IMAGE_ZOOMED = "//*[@id='zoomed-image-perspective']//img";

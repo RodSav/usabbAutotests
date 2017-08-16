@@ -7,9 +7,6 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/12/17.
- */
 public class CheckoutUserSteps extends ScenarioSteps {
 
     CheckoutPage checkoutPage;

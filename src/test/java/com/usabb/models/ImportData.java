@@ -2,9 +2,6 @@ package com.usabb.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/1/17.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ImportData {
     private BaseProduct baseProduct;

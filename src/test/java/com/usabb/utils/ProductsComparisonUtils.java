@@ -2,9 +2,6 @@ package com.usabb.utils;
 
 import com.usabb.models.Product;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/26/17.
- */
 public class ProductsComparisonUtils {
 
     public static String compareProducts(Product expectedProduct, Product actualProduct) {

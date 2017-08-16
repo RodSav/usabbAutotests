@@ -16,9 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/19/17.
- */
 public abstract class TestRailIntegration {
 
     private static final Logger logger = LoggerFactory.getLogger(TestRailIntegration.class);

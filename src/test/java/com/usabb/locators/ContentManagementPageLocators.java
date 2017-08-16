@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public interface ContentManagementPageLocators {
 
     String WCMS_PAGE_SIGN = "//td[contains(text(),'WCMS Page View')]";

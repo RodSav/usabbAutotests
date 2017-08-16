@@ -20,9 +20,6 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/19/17.
- */
 public class GlobalElements extends PageObject {
 
     public void clickOnCategoryInNavigationMenu(String arg0) {

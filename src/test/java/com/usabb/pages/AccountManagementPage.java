@@ -19,9 +19,6 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/20/17.
- */
 public class AccountManagementPage extends PageObject {
     public void clickOnLoginPage() {
         $(AccountManagementLocators.LOGIN_BUTTON).click();

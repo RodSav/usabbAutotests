@@ -10,9 +10,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/20/17.
- */
 public class TestRail extends TestRailIntegration {
 
     private static final Logger logger = LoggerFactory.getLogger(TestRail.class);

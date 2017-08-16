@@ -9,9 +9,6 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class LoginUserSteps extends ScenarioSteps {
 
     LoginPage loginPage;

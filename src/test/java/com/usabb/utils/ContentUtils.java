@@ -10,9 +10,6 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/15/17.
- */
 public class ContentUtils {
 
     /**

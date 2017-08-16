@@ -12,9 +12,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by ${Timonov_Viacheslav} on 7/7/17.
- */
 public class EmailUtils {
 
     private static final Logger logger = LoggerFactory.getLogger(EmailUtils.class);

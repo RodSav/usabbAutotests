@@ -5,9 +5,6 @@ import com.usabb.testrail.models.Result;
 
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/19/17.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ImportResults {
     private Result result;

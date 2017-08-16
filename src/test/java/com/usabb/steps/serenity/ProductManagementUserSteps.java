@@ -8,9 +8,6 @@ import org.junit.Assert;
 
 import java.util.concurrent.TimeoutException;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class ProductManagementUserSteps extends ScenarioSteps {
     ProductManagementPage productManagementPage;
     ContentManagementPage contentManagementPage;

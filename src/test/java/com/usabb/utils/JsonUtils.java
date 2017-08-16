@@ -17,9 +17,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/1/17.
- */
 public class JsonUtils {
 
     private static final Logger logger = LoggerFactory.getLogger(JsonUtils.class);

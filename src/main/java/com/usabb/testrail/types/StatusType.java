@@ -1,8 +1,5 @@
 package com.usabb.testrail.types;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/20/17.
- */
 public enum StatusType {
     SUCCESS(1), ERROR(4), UNTESTED(3), RETEST(2), FAILURE(5);
 

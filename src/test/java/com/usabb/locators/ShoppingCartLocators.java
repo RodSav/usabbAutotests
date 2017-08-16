@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public interface ShoppingCartLocators {
 
     String ALL_PRODUCTS_FOR_COUNT = "//li[@class='item__list--item']";

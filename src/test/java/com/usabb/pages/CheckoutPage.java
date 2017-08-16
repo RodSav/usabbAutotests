@@ -8,9 +8,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/12/17.
- */
 public class CheckoutPage extends PageObject {
 
     public void clickOnInputOfCheckBoxWithLabel(String arg0) {

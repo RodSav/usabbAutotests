@@ -9,9 +9,6 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/19/17.
- */
 public class ProcessResults {
 
     private static final Logger logger = LoggerFactory.getLogger(ProcessResults.class);

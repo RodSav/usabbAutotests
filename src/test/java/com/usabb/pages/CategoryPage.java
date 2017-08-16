@@ -18,9 +18,6 @@ import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/19/17.
- */
 public class CategoryPage extends PageObject {
 
     public boolean getVisibilityOfPagination(String s) {

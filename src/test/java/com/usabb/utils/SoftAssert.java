@@ -4,9 +4,6 @@ import org.junit.Assert;
 
 import java.util.ArrayList;
 
-/**
- * Created by ${Timonov_Viacheslav} on 2/3/17.
- */
 public class SoftAssert extends Assert {
 
     private static ArrayList<AssertionError> m_errors = new ArrayList<>();

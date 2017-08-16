@@ -5,9 +5,6 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class SearchUserSteps extends ScenarioSteps {
     SearchPage searchPage;
 

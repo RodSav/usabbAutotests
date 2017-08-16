@@ -1,8 +1,5 @@
 package com.usabb.utils;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/30/17.
- */
 public class PreExecutionSetUp {
 
     private final static String BASE_URL = System.getProperty("webdriver.base.url");

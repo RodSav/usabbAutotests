@@ -14,11 +14,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-;
-
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class ShoppingCartPage extends PageObject {
 
     public void rememberInformationOffAllProductsOnCartPage() {

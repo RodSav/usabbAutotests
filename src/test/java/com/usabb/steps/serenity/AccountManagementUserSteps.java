@@ -14,9 +14,6 @@ import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/20/17.
- */
 public class AccountManagementUserSteps extends ScenarioSteps {
     AccountManagementPage managementPage;
     GlobalElements globalElements;

@@ -15,11 +15,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
-;
-
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class ProductManagementPage extends PageObject {
     CockpitUtils cockpitUtils;
 

@@ -7,9 +7,6 @@ import net.thucydides.core.annotations.Steps;
 
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/20/17.
- */
 public class AccountManagementDefinitionSteps {
 
     @Steps

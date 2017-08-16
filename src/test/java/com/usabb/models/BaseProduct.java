@@ -6,10 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.lang.reflect.Field;
 import java.util.*;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/1/17.
- */
-
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class BaseProduct {
     @JsonProperty("Base Model")

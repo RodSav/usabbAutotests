@@ -10,9 +10,6 @@ import org.junit.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class ShoppingCartUserSteps extends ScenarioSteps {
 
     ShoppingCartPage shoppingCartPage;

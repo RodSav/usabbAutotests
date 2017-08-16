@@ -22,10 +22,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class ContentManagementPage extends PageObject {
 
     CockpitUtils cockpitUtils;

@@ -10,9 +10,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/19/17.
- */
 public class ReadResults {
 
     private static final Logger logger = LoggerFactory.getLogger(ReadResults.class);

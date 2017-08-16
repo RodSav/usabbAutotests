@@ -1,8 +1,5 @@
 package com.usabb.models;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class Product {
     private String name;
     private String code;

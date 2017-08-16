@@ -11,9 +11,6 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class LoginPage extends PageObject {
 
     public void clickOnCreateButton() {

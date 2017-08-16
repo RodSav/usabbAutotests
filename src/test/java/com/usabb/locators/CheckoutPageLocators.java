@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/12/17.
- */
 public interface CheckoutPageLocators {
     String CHECK_BOX_WITH_LABEL = "//label[contains(text(),'$1')]/preceding-sibling::input";
     String DROPDOWN_INPUT_BY_LABEL = "//label[contains(text(),'$1') and not(@for='StartYear')]/following-sibling::div//select";

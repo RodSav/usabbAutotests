@@ -3,9 +3,6 @@ package com.usabb.utils;
 import com.usabb.testrail.TestRail;
 import org.junit.Test;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/20/17.
- */
 public class AggregateResults {
 
     @Test

@@ -4,9 +4,6 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = {
         "src/test/resources/features/shopping_cart/CART3_ProductLinks.feature",

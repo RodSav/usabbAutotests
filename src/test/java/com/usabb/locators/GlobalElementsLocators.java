@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/19/17.
- */
 public interface GlobalElementsLocators {
     String HEADER_NAVIGATION_MENU_ITEMS = "//div[@class='navigation__overflow']//span/a";
     String HEADER_GLOBAL = "//header";

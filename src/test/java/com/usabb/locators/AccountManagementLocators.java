@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/20/17.
- */
 public interface AccountManagementLocators {
     String LOGIN_BUTTON = "//*[@id='loginForm']//button";
     String CHANGE_ENV_DROP_DOWN = "//div[@title='Administration']";

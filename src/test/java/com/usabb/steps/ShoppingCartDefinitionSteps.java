@@ -5,9 +5,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/24/17.
- */
 public class ShoppingCartDefinitionSteps {
 
     @Steps

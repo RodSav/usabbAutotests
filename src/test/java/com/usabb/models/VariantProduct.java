@@ -5,9 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/1/17.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class VariantProduct {
     @JsonProperty("SAP Material Number")

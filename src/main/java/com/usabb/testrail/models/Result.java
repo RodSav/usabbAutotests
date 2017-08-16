@@ -5,9 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/19/17.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Result {
     @JsonProperty("name")

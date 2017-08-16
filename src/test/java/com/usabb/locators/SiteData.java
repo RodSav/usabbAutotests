@@ -1,8 +1,5 @@
 package com.usabb.locators;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/19/17.
- */
 public interface SiteData {
 //    PreExecutionSetUp setUp = new PreExecutionSetUp();
     //Site urls

@@ -11,9 +11,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/8/17.
- */
 public class CommonElementsPage extends PageObject {
 
     public void login(String username, String password) {

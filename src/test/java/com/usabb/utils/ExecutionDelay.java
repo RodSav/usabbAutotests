@@ -11,9 +11,6 @@ import javax.net.ssl.*;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * Created by ${Timonov_Viacheslav} on 5/17/17.
- */
 public class ExecutionDelay {
 
     private static final Logger logger = LoggerFactory.getLogger(ExecutionDelay.class);

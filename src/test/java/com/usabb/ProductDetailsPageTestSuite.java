@@ -4,9 +4,6 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = {
         "src/test/resources/features/product_details_page/PDP1_PDPPricing.feature",

@@ -9,9 +9,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * Created by ${Timonov_Viacheslav} on 6/20/17.
- */
 public class TestRailSetUp {
 
     private static final Logger logger = LoggerFactory.getLogger(TestRailSetUp.class);

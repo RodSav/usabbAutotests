@@ -9,9 +9,6 @@ import org.junit.Assert;
 
 import java.util.List;
 
-/**
- * Created by ${Timonov_Viacheslav} on 4/21/17.
- */
 public class ProductDetailsPageUserSteps extends ScenarioSteps {
     ProductDetailsPage productDetailsPage;
 
