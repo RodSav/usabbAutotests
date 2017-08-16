@@ -7,10 +7,10 @@ public interface SiteData {
 //    PreExecutionSetUp setUp = new PreExecutionSetUp();
     //Site urls
 
-    String DEV_STOREFRONT_URL = "https://usabb-dev.zaelab.com/usabb/en/USD/login";
-    String DEV_CMS_URL = "https://usabb-dev.zaelab.com/cmscockpit/login.zul";
-    String DEV_PIM_URL = "https://usabb-dev.zaelab.com/productcockpit/login.zul";
-    String DEV_BACKOFFICE_URL = "https://usabb-dev.zaelab.com/backoffice/";
+    String DEV_STOREFRONT_URL = "https://virco-dev.zaelab.com/virco/en/USD/login";
+    String DEV_CMS_URL = "https://virco-dev.zaelab.com/cmscockpit/login.zul";
+    String DEV_PIM_URL = "https://virco-dev.zaelab.com/productcockpit/login.zul";
+    String DEV_BACKOFFICE_URL = "https://virco-dev.zaelab.com/backoffice/";
 //vIrCoTeSt1$ test.virco@gmail.com
     //*
 
