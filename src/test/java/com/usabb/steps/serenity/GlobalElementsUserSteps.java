@@ -1,7 +1,7 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.pages.GlobalElements;
-import com.virco.utils.SoftAssert;
+import com.usabb.pages.GlobalElements;
+import com.usabb.utils.SoftAssert;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;

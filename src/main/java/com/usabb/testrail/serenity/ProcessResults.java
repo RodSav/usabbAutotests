@@ -1,8 +1,8 @@
-package com.virco.testrail.serenity;
+package com.usabb.testrail.serenity;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virco.testrail.models.Result;
+import com.usabb.testrail.models.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,11 +1,11 @@
-package com.virco.testrail;
+package com.usabb.testrail;
 
 import com.gurock.testrail.APIClient;
 import com.gurock.testrail.APIException;
-import com.virco.testrail.models.Result;
-import com.virco.testrail.serenity.ProcessResults;
-import com.virco.testrail.serenity.ReadResults;
-import com.virco.testrail.types.StatusType;
+import com.usabb.testrail.models.Result;
+import com.usabb.testrail.serenity.ProcessResults;
+import com.usabb.testrail.serenity.ReadResults;
+import com.usabb.testrail.types.StatusType;
 import org.json.simple.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 /**
  * Created by ${Timonov_Viacheslav} on 5/30/17.
@@ -18,8 +18,8 @@ public class PreExecutionSetUp {
 
     private static String getHybrisUrls(String url) {
         if (url.contains("hybris")) {
-            if (url.contains("dev")) return "https://hybris-admin-dev.virco.com";
-            else return "https://hybris-admin-stg.virco.com";
+            if (url.contains("dev")) return "https://hybris-admin-dev.usabb.com";
+            else return "https://hybris-admin-stg.usabb.com";
         } else return BASE_URL;
     }
 }

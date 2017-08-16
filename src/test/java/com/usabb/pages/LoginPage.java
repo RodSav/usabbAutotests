@@ -1,9 +1,9 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.CommonElementsLocators;
-import com.virco.locators.LoginLocators;
-import com.virco.utils.EmailUtils;
-import com.virco.utils.PageObject;
+import com.usabb.locators.CommonElementsLocators;
+import com.usabb.locators.LoginLocators;
+import com.usabb.utils.EmailUtils;
+import com.usabb.utils.PageObject;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;

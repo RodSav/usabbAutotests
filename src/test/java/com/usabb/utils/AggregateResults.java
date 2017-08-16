@@ -1,6 +1,6 @@
-package com.virco.utils;
+package com.usabb.utils;
 
-import com.virco.testrail.TestRail;
+import com.usabb.testrail.TestRail;
 import org.junit.Test;
 
 /**

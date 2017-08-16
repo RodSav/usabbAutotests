@@ -1,4 +1,4 @@
-package com.virco.testrail.serenity;
+package com.usabb.testrail.serenity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

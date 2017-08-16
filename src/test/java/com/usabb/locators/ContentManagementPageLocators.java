@@ -1,4 +1,4 @@
-package com.virco.locators;
+package com.usabb.locators;
 
 /**
  * Created by ${Timonov_Viacheslav} on 4/21/17.
@@ -9,7 +9,7 @@ public interface ContentManagementPageLocators {
     String MENU_DROPDOWN = "//div[@class='menulabel']//span";
     String LOGOUT_MENU_ITEM = "//a[contains(text(),'Logout')]";
     String USABB_SITE_MENU_ITEM = "//div[contains(@class,'advancedPanel')]//span[text() ='UsaBlueBook Site']";
-    String USABB_CONTENT_CATALOG = "//div[@class='advancedGroupboxPreLabel']//span[text()='virco Content Catalog / $1']";
+    String USABB_CONTENT_CATALOG = "//div[@class='advancedGroupboxPreLabel']//span[text()='usabb Content Catalog / $1']";
     String SPINNER = "//div[@id='zk_loading']//span";
     String PAGE_CONTENT_TEMPLATE = "//span[text()='$1']";
     String CMS_PAGE_ACTIONS_BUTTON = "//div[@class='cms_page_actions']//img[@title='$1']";

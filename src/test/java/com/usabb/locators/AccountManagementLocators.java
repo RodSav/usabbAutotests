@@ -1,4 +1,4 @@
-package com.virco.locators;
+package com.usabb.locators;
 
 /**
  * Created by ${Timonov_Viacheslav} on 4/20/17.

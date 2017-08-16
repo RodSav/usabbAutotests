@@ -1,12 +1,12 @@
-package com.virco.testrail.types;
+package com.usabb.testrail.types;
 
 /**
  * Created by ${Timonov_Viacheslav} on 6/20/17.
  */
 public enum SiteType {
     ZLB_DEV("https://34.207.13.246"),
-    SAP_DEV("https://hybris-dev.virco.com"),
-    SAP_STG("https://hybris-stg.virco.com");
+    SAP_DEV("https://hybris-dev.usabb.com"),
+    SAP_STG("https://hybris-stg.usabb.com");
 
     private final String name;
 

@@ -1,4 +1,4 @@
-package com.virco.testrail.models;
+package com.usabb.testrail.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

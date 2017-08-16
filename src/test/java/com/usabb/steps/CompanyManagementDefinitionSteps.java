@@ -1,6 +1,6 @@
-package com.virco.steps;
+package com.usabb.steps;
 
-import com.virco.steps.serenity.CompanyManagementUserSteps;
+import com.usabb.steps.serenity.CompanyManagementUserSteps;
 import net.thucydides.core.annotations.Steps;
 
 /**

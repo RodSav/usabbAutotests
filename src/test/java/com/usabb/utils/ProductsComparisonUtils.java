@@ -1,6 +1,6 @@
-package com.virco.utils;
+package com.usabb.utils;
 
-import com.virco.models.Product;
+import com.usabb.models.Product;
 
 /**
  * Created by ${Timonov_Viacheslav} on 5/26/17.

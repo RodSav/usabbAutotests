@@ -1,9 +1,9 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.ProductDetailsPageLocators;
-import com.virco.locators.ShoppingCartLocators;
-import com.virco.models.Product;
-import com.virco.utils.PageObject;
+import com.usabb.locators.ProductDetailsPageLocators;
+import com.usabb.locators.ShoppingCartLocators;
+import com.usabb.models.Product;
+import com.usabb.utils.PageObject;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.WebElement;

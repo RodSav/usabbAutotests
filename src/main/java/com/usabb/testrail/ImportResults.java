@@ -1,7 +1,7 @@
-package com.virco.testrail;
+package com.usabb.testrail;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.virco.testrail.models.Result;
+import com.usabb.testrail.models.Result;
 
 import java.util.List;
 

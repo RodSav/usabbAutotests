@@ -1,4 +1,4 @@
-package com.virco.locators;
+package com.usabb.locators;
 
 /**
  * Created by ${Timonov_Viacheslav} on 4/19/17.
@@ -7,11 +7,11 @@ public interface SiteData {
 //    PreExecutionSetUp setUp = new PreExecutionSetUp();
     //Site urls
 
-    String DEV_STOREFRONT_URL = "https://virco-dev.zaelab.com/virco/en/USD/login";
-    String DEV_CMS_URL = "https://virco-dev.zaelab.com/cmscockpit/login.zul";
-    String DEV_PIM_URL = "https://virco-dev.zaelab.com/productcockpit/login.zul";
-    String DEV_BACKOFFICE_URL = "https://virco-dev.zaelab.com/backoffice/";
-//vIrCoTeSt1$ test.virco@gmail.com
+    String DEV_STOREFRONT_URL = "https://usabb-dev.zaelab.com/usabb/en/USD/login";
+    String DEV_CMS_URL = "https://usabb-dev.zaelab.com/cmscockpit/login.zul";
+    String DEV_PIM_URL = "https://usabb-dev.zaelab.com/productcockpit/login.zul";
+    String DEV_BACKOFFICE_URL = "https://usabb-dev.zaelab.com/backoffice/";
+//vIrCoTeSt1$ test.usabb@gmail.com
     //*
 
 //    String DEV_STOREFRONT_URL = "http://hybris-dev.virco.com/vircostorefront";
@@ -44,6 +44,6 @@ public interface SiteData {
     String SHOPPER_NAME = "anthony.lombardi@rustic-hw.com";
     String SHOPPER_PASSWORD = "12341234";
 
-    String TEST_USER_EMAIL = "test.virco@gmail.com";
+    String TEST_USER_EMAIL = "test.usabb@gmail.com";
     String TEST_USER_PASSWORD = "vIrCoTeSt1$";
 }

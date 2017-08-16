@@ -1,7 +1,7 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.CheckoutPageLocators;
-import com.virco.utils.PageObject;;
+import com.usabb.locators.CheckoutPageLocators;
+import com.usabb.utils.PageObject;;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

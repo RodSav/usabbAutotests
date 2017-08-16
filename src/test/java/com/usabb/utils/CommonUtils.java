@@ -1,4 +1,4 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

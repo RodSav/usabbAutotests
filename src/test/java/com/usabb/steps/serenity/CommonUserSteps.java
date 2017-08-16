@@ -1,8 +1,8 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.locators.SiteData;
-import com.virco.pages.AccountManagementPage;
-import com.virco.pages.CommonElementsPage;
+import com.usabb.locators.SiteData;
+import com.usabb.pages.AccountManagementPage;
+import com.usabb.pages.CommonElementsPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;

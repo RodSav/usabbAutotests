@@ -1,7 +1,7 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.pages.ProductDetailsPage;
-import com.virco.utils.SoftAssert;
+import com.usabb.pages.ProductDetailsPage;
+import com.usabb.utils.SoftAssert;
 import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;

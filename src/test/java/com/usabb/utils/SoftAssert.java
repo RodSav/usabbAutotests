@@ -1,4 +1,4 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 import org.junit.Assert;
 

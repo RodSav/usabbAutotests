@@ -1,7 +1,7 @@
-package com.virco.steps;
+package com.usabb.steps;
 
-import com.virco.locators.SiteData;
-import com.virco.steps.serenity.CommonUserSteps;
+import com.usabb.locators.SiteData;
+import com.usabb.steps.serenity.CommonUserSteps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

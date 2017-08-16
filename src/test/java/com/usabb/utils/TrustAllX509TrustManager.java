@@ -1,4 +1,4 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 import javax.net.ssl.X509TrustManager;
 import java.security.cert.X509Certificate;

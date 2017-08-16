@@ -1,10 +1,10 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.*;
-import com.virco.models.BaseProduct;
-import com.virco.models.VariantProduct;
-import com.virco.utils.JsonUtils;
-import com.virco.utils.PageObject;
+import com.usabb.locators.*;
+import com.usabb.models.BaseProduct;
+import com.usabb.models.VariantProduct;
+import com.usabb.utils.JsonUtils;
+import com.usabb.utils.PageObject;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.junit.Assert;

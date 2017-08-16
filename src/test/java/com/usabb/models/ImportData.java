@@ -1,4 +1,4 @@
-package com.virco.models;
+package com.usabb.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

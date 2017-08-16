@@ -1,11 +1,11 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.AccountManagementLocators;
-import com.virco.locators.CommonElementsLocators;
-import com.virco.locators.GlobalElementsLocators;
-import com.virco.locators.ShoppingCartLocators;
-import com.virco.models.Product;
-import com.virco.utils.PageObject;
+import com.usabb.locators.AccountManagementLocators;
+import com.usabb.locators.CommonElementsLocators;
+import com.usabb.locators.GlobalElementsLocators;
+import com.usabb.locators.ShoppingCartLocators;
+import com.usabb.models.Product;
+import com.usabb.utils.PageObject;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;

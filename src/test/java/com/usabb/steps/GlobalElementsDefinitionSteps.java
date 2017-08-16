@@ -1,6 +1,6 @@
-package com.virco.steps;
+package com.usabb.steps;
 
-import com.virco.steps.serenity.GlobalElementsUserSteps;
+import com.usabb.steps.serenity.GlobalElementsUserSteps;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;

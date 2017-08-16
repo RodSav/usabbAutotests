@@ -1,4 +1,4 @@
-package com.virco;
+package com.usabb;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

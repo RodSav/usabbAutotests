@@ -1,11 +1,11 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.models.Product;
-import com.virco.pages.AccountManagementPage;
-import com.virco.pages.ContentManagementPage;
-import com.virco.pages.GlobalElements;
-import com.virco.utils.CommonUtils;
-import com.virco.utils.SoftAssert;
+import com.usabb.models.Product;
+import com.usabb.pages.AccountManagementPage;
+import com.usabb.pages.ContentManagementPage;
+import com.usabb.pages.GlobalElements;
+import com.usabb.utils.CommonUtils;
+import com.usabb.utils.SoftAssert;
 import net.serenitybdd.core.Serenity;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;

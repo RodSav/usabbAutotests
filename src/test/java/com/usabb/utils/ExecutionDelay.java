@@ -1,6 +1,6 @@
-package com.virco.utils;
+package com.usabb.utils;
 
-import com.virco.locators.SiteData;
+import com.usabb.locators.SiteData;
 import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;

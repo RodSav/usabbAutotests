@@ -1,6 +1,6 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.pages.CompanyManagementPage;
+import com.usabb.pages.CompanyManagementPage;
 import net.thucydides.core.steps.ScenarioSteps;
 
 /**

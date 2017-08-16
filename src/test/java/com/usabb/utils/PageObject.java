@@ -1,4 +1,4 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.Step;

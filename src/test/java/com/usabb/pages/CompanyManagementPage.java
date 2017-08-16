@@ -1,6 +1,6 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.utils.PageObject;;
+import com.usabb.utils.PageObject;;
 
 /**
  * Created by ${Timonov_Viacheslav} on 4/21/17.

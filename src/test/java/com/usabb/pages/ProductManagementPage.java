@@ -1,9 +1,9 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.ContentManagementPageLocators;
-import com.virco.locators.ProductManagementLocators;
-import com.virco.utils.CockpitUtils;
-import com.virco.utils.PageObject;
+import com.usabb.locators.ContentManagementPageLocators;
+import com.usabb.locators.ProductManagementLocators;
+import com.usabb.utils.CockpitUtils;
+import com.usabb.utils.PageObject;
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;

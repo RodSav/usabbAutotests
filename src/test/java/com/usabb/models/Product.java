@@ -1,4 +1,4 @@
-package com.virco.models;
+package com.usabb.models;
 
 /**
  * Created by ${Timonov_Viacheslav} on 5/24/17.

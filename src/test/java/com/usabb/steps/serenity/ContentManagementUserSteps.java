@@ -1,6 +1,6 @@
-package com.virco.steps.serenity;
+package com.usabb.steps.serenity;
 
-import com.virco.pages.ContentManagementPage;
+import com.usabb.pages.ContentManagementPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.junit.Assert;

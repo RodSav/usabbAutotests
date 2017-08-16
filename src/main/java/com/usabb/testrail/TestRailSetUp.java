@@ -1,4 +1,4 @@
-package com.virco.testrail;
+package com.usabb.testrail;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

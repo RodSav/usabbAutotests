@@ -1,4 +1,4 @@
-package com.virco.testrail.types;
+package com.usabb.testrail.types;
 
 /**
  * Created by ${Timonov_Viacheslav} on 6/20/17.

@@ -1,8 +1,8 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.CommonElementsLocators;
-import com.virco.locators.SearchLocators;
-import com.virco.utils.PageObject;;
+import com.usabb.locators.CommonElementsLocators;
+import com.usabb.locators.SearchLocators;
+import com.usabb.utils.PageObject;;
 import org.openqa.selenium.Keys;
 
 /**

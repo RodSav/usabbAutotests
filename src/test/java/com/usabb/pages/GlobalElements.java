@@ -1,11 +1,11 @@
-package com.virco.pages;
+package com.usabb.pages;
 
-import com.virco.locators.CategoryPageLocators;
-import com.virco.locators.CommonElementsLocators;
-import com.virco.locators.GlobalElementsLocators;
-import com.virco.locators.SiteData;
-import com.virco.utils.ImageUtils;
-import com.virco.utils.PageObject;
+import com.usabb.locators.CategoryPageLocators;
+import com.usabb.locators.CommonElementsLocators;
+import com.usabb.locators.GlobalElementsLocators;
+import com.usabb.locators.SiteData;
+import com.usabb.utils.ImageUtils;
+import com.usabb.utils.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

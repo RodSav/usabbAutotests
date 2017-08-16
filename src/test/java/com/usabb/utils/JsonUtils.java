@@ -1,11 +1,11 @@
-package com.virco.utils;
+package com.usabb.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.virco.locators.Path;
-import com.virco.models.BaseProduct;
-import com.virco.models.ImportData;
-import com.virco.models.VariantProduct;
+import com.usabb.locators.Path;
+import com.usabb.models.BaseProduct;
+import com.usabb.models.ImportData;
+import com.usabb.models.VariantProduct;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Logger;
