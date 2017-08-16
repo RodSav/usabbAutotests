@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="5" failures="0" name="GE-3 - Social Links" skipped="0" tests="5" time="0.15" timestamp="2017-08-223 02:08:17"><testcase name="VIR-117.01 Verify that the social links of the companies social media channels are shown in the footer"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
-com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
-com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
-</system-err></testcase><testcase name="VIR-117.02 Verify that the shopper is moved to the appropriate Virco's social media channels after clicking on the social link"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
-com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
-com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
-</system-err></testcase></testsuite>

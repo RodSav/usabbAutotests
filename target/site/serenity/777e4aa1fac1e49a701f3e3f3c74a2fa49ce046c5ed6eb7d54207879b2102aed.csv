@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"GE-1 - Breadcrumbs","VIR-115.01 Verify that the breadcrumb path shows the navigation from the root to the child nodes","ERROR","2017-08-11T14:08:16.138+03:00","0.0","0.07"
-"GE-1 - Breadcrumbs","VIR-115.02 Verify that the shopper is moved to the appropriate page after clicking on the breadcrumb node","ERROR","2017-08-11T14:08:16.228+03:00","0.0","0.06"
-"GE-1 - Breadcrumbs","VIR-115.05 Verify that the opened page's name in breadcrumb is shown as a text","ERROR","2017-08-11T14:08:16.317+03:00","0.0","0.07"

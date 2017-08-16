@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"PDP-16 - Tools & Assembly Required","VIR-146.01 Verify that ""Assembly Required"" is shown to the customer, if the products requires assembly","ERROR","2017-08-11T14:08:23.252+03:00","0.0","0.09"
-"PDP-16 - Tools & Assembly Required","VIR-146.02 Verify that ""Assembly Required"" is not shown to the customer, if the products does not require assembly","ERROR","2017-08-11T14:08:23.411+03:00","0.0","0.06"

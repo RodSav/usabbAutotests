@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"CNT-5 - Brand Management","VIR-132.04 Verify that the restrictions can be added to the following","PENDING","2017-08-11T14:08:09.604+03:00","0.0","0.0"
-"CNT-9 - Contact Information","VIR-136.02 Verify that Content Admin can change the following Contact Us info","ERROR","2017-08-11T14:08:14.687+03:00","0.0","0.07"
-"CNT-9 - Contact Information","VIR-136.03 Verify that the Contact Us info is updated accordingly on the site","ERROR","2017-08-11T14:08:14.875+03:00","0.0","0.05"
-"CNT-9 - Contact Information","VIR-136.04 Return changes","ERROR","2017-08-11T14:08:15.072+03:00","0.0","0.05"
-"CNT-2 - Component Maintenance","VIR-166.04 Verify installation slot","SUCCESS","2017-08-11T14:08:05.015+03:00","0.0","0.0"
-"CART-10 - Mini-Cart","VIR-326.04 Verify that the following information is shown for the line items","SUCCESS","2017-08-11T14:08:27.780+03:00","0.0","0.0"
-"ACT-21 - View Saved Carts","VIR-440.01 The cart q-ty is not based on the item level for the saved carts","SUCCESS","2017-08-11T14:07:16.051+03:00","0.0","0.0"

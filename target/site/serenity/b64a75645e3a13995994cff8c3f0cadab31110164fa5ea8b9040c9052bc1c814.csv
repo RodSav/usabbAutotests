@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"CAT-5 - Category Navigation","VIR-151.05 Verify that the ""Top"" button is shown to the user on the Search result page","SKIPPED","2017-08-11T14:07:46.922+03:00","0.0","10.5"
-"CAT-2 - Numeration Display","VIR-251.01 Verify that the amount of products per opened page is shown","PENDING","2017-08-11T14:07:39.597+03:00","0.0","0.0"
-"CAT-2 - Numeration Display","VIR-251.02 Verify that the 20 products are shown per page","PENDING","2017-08-11T14:07:39.838+03:00","0.0","0.0"
-"CAT-2 - Numeration Display","VIR-251.03 Verify that the last page shows the appropriate number of items","PENDING","2017-08-11T14:07:39.935+03:00","0.0","0.0"

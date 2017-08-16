@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-14 - Reorder","VIR-239.01 Verify that the shopper can see the Reorder button near each order in the list of orders history","PENDING","2017-08-11T14:06:59.336+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.02 Verify that the Reorder button is present at the order details page","PENDING","2017-08-11T14:06:59.600+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.03 Verify that the Reorder button is present only near the orders created by shopper","PENDING","2017-08-11T14:06:59.907+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.04 Verify that the new order with the same order details is created after reordering","PENDING","2017-08-11T14:07:00.182+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.05 Verify that the Admin can reorder the orders created by him and stuff shoppers","PENDING","2017-08-11T14:07:00.474+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.06 Verify that the Chief can reorder the orders created by him, admin and stuff shoppers","PENDING","2017-08-11T14:07:00.804+03:00","0.0","0.0"
-"ACT-14 - Reorder","VIR-239.07 Verify that the Stuff shopper can reorder the orders created by him\her only","PENDING","2017-08-11T14:07:01.069+03:00","0.0","0.0"

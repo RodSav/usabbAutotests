@@ -126,8 +126,8 @@
                     </includes>
                     <excludes>
                         <exclude>**/AcceptanceTestSuite.java</exclude>
-                        <exclude>com.virco.utils.AggregateResults</exclude>
-                        <exclude>com.virco.utils.ExecutionDelay</exclude>
+                        <exclude>com.usabb.utils.AggregateResults</exclude>
+                        <exclude>com.usabb.utils.ExecutionDelay</exclude>
                         <!--<exclude>**/SmokeTestSuite.java</exclude>-->
                     </excludes>
                     <argLine>-Xmx512m</argLine>

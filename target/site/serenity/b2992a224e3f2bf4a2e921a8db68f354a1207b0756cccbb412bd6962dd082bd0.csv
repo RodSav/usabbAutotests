@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-5 - Contract Available","VIR-230.01 Verify that customer can set the contract from the list in the header","PENDING","2017-08-11T14:07:23.872+03:00","0.0","0.0"
-"ACT-5 - Contract Available","VIR-230.02 Verify that if the contract has expired, the customer is required to select the active contract with the following message","PENDING","2017-08-11T14:07:24.412+03:00","0.0","0.0"

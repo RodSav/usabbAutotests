@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-15 - Customer Management","VIR-240.01 Verify that the following message is shown to the customer if they entered wrong login data at first and second times","PENDING","2017-08-11T14:07:01.345+03:00","0.0","0.0"
-"ACT-15 - Customer Management","VIR-240.02 Verify that the error message is shown to the customer if they entered wrong login data three and more times","PENDING","2017-08-11T14:07:01.601+03:00","0.0","0.0"
-"ACT-15 - Customer Management","VIR-240.03 Verify that the account is locked automatically after 3 incorrect login attempts","PENDING","2017-08-11T14:07:01.903+03:00","0.0","0.0"
-"ACT-15 - Customer Management","VIR-240.04 Verify that the customer can phone via Skype when they click on the phone number from desktop browser","PENDING","2017-08-11T14:07:02.193+03:00","0.0","0.0"
-"ACT-15 - Customer Management","VIR-240.05 Verify that the customer can phone via phone/skype when they click on the phone number from mobile device","PENDING","2017-08-11T14:07:02.486+03:00","0.0","0.0"

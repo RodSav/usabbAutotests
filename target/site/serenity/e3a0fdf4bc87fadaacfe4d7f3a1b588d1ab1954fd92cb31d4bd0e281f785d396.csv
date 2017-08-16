@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-9 - Contract Pricing","VIR-234.01 Verify the the logged in customer can see the prices based on his contract","PENDING","2017-08-11T14:07:35.653+03:00","0.0","0.0"
-"ACT-9 - Contract Pricing","VIR-234.02 Verify that the logged in user can see the prices below the item on the following pages","PENDING","2017-08-11T14:07:36.261+03:00","0.0","0.0"
-"ACT-9 - Contract Pricing","VIR-234.03 Verify that when customer changed the contract, the pricing is changed accordingly","PENDING","2017-08-11T14:07:36.800+03:00","0.0","0.0"

@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-11 - View Orders - Shopper ECC","VIR-236.01 Verify that the shopper can see the created by him ECC orders withing Orders History","PENDING","2017-08-11T14:06:57.221+03:00","0.0","0.0"
-"ACT-11 - View Orders - Shopper ECC","VIR-236.02 Verify that the shopper is able to see the ECC orders details","PENDING","2017-08-11T14:06:57.458+03:00","0.0","0.0"
-"ACT-11 - View Orders - Shopper ECC","VIR-236.03 Verify that shopper is not able to reorder the ECC orders","PENDING","2017-08-11T14:06:57.786+03:00","0.0","0.0"

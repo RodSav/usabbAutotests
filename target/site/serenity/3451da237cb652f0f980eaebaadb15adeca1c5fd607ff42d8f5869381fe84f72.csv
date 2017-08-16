@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-16 - CSR Mass Set Up","VIR-241.01 Verify that the bunch of customers are created in hybris after running mass setup script","PENDING","2017-08-11T14:07:02.699+03:00","0.0","0.0"
-"ACT-16 - CSR Mass Set Up","VIR-241.02 Verify that the personal details are mapped appropriately","PENDING","2017-08-11T14:07:03.083+03:00","0.0","0.0"
-"ACT-16 - CSR Mass Set Up","VIR-241.03 Verify that the data outlined in ID3 are copied into the hybris","PENDING","2017-08-11T14:07:03.355+03:00","0.0","0.0"
-"ACT-16 - CSR Mass Set Up","VIR-241.04 Verify that just set up customers can log into the system and perform appropriate activities (due to the permissions)","PENDING","2017-08-11T14:07:03.733+03:00","0.0","0.0"

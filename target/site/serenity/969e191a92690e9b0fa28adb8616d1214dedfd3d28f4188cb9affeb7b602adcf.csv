@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"CART-4 - Delete SKU","VIR-321.01 Verify that the delete button is shown per each record from the cart","ERROR","2017-08-11T14:08:28.355+03:00","0.0","0.06"
-"CART-4 - Delete SKU","VIR-321.02 Verify that the deleted record is removed from the cart and total is recalculated appropriately","ERROR","2017-08-11T14:08:28.468+03:00","0.0","0.08"
-"CART-4 - Delete SKU","VIR-321.03 Verify that the recalculated total is shown at the mini cart on the Cart badge","ERROR","2017-08-11T14:08:28.585+03:00","0.0","0.07"

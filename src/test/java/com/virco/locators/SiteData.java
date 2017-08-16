@@ -28,7 +28,7 @@ public interface SiteData {
 //    String DEV_BACKOFFICE_URL = "http://hybris-admin-stg.virco.com/backoffice/";
     //  */
 
-    String SITE_TITLE = "Virco Site";
+    String SITE_TITLE = "Usabb Site";
 
     //Credential
     String CMSMANAGER_LOGIN = "cmsmanager";

@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-18 - Tracking Information","VIR-243.01 Verify that the order tracking number is shown at the Order History and on the Order Details pages","PENDING","2017-08-11T14:07:05.836+03:00","0.0","0.0"
-"ACT-18 - Tracking Information","VIR-243.02 Verify that the several order tracking number can be shown for one order","PENDING","2017-08-11T14:07:06.225+03:00","0.0","0.0"
-"ACT-18 - Tracking Information","VIR-243.03 Verify that the order delivery status is shown in new window after clicking on tracking number link","PENDING","2017-08-11T14:07:06.599+03:00","0.0","0.0"
-"ACT-18 - Tracking Information","VIR-243.04 Verify that the chief shopper can see the order tracking number for the orders created by","PENDING","2017-08-11T14:07:06.910+03:00","0.0","0.0"
-"ACT-18 - Tracking Information","VIR-243.05 Verify that the admin shopper can see the order tracking number for the orders created by","PENDING","2017-08-11T14:07:07.286+03:00","0.0","0.0"

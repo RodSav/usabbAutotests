@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="PDP-2 - Image Zoom" skipped="0" tests="2" time="0.12" timestamp="2017-08-223 02:08:24"><testcase name="VIR-140.01 Verify that the customer can use rotating zoom on the product images"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
-com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
-com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
-</system-err></testcase><testcase name="VIR-140.02 Verify that the customer can close rotating zoom on the product images"><error message="Could not initialize class com.virco.locators.SiteData" type="java.lang.NoClassDefFoundError">Could not initialize class com.virco.locators.SiteData</error><system-err>Could not initialize class com.virco.locators.SiteData
-com.virco.steps.serenity.CommonUserSteps.openTheSite(CommonUserSteps.java:19)
-com.virco.steps.CommonDefinitionSteps.openTheSiteAndLogin(CommonDefinitionSteps.java:72)
-</system-err></testcase></testsuite>

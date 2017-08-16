@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"CNT-4 - Security Compliance","VIR-131.02 Verify that the content Admin can delete terms, security and compliance","ERROR","2017-08-11T14:08:06.287+03:00","0.0","0.14"
-"CNT-4 - Security Compliance","VIR-131.03 Verify that the content Admin can add terms, security and compliance","ERROR","2017-08-11T14:08:06.526+03:00","0.0","0.11"
-"CNT-4 - Security Compliance","VIR-131.04 Verify that the content Admin can edit terms, security and compliance","ERROR","2017-08-11T14:08:06.728+03:00","0.0","0.21"
-"CNT-4 - Security Compliance","VIR-131.05 Return changes","ERROR","2017-08-11T14:08:07.068+03:00","0.0","0.64"
-"CNT-4 - Security Compliance","VIR-375.01 Unable to open the ""Verisign terms and policy"" page except through the Contact Us page","ERROR","2017-08-11T14:08:06.140+03:00","0.0","0.09"

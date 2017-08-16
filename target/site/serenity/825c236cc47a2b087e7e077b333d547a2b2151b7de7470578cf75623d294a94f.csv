@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-6 - Contract Expired","VIR-231.01 Verify that the 'Pricing not available' is shown to the product when selected contract has expired during browsing the site","PENDING","2017-08-11T14:07:24.876+03:00","0.0","0.0"
-"ACT-6 - Contract Expired","VIR-231.02 Verify that the 'Pricing not available' is shown to the product when default contract has expired during browsing the site","PENDING","2017-08-11T14:07:25.347+03:00","0.0","0.0"
-"ACT-6 - Contract Expired","VIR-231.03 Verify that the modal message is shown to the customer on loggin, that the contract has expired","PENDING","2017-08-11T14:07:25.833+03:00","0.0","0.0"
-"ACT-6 - Contract Expired","VIR-231.04 Verify that the expired contract is removed from the list once the new active one is selected","PENDING","2017-08-11T14:07:26.603+03:00","0.0","0.0"
-"ACT-6 - Contract Expired","VIR-231.05 Verify that the message, that prices will be due to the current contract, is shown to the shopper if they wants to reorder the order, which contract has expired","PENDING","2017-08-11T14:07:27.320+03:00","0.0","0.0"

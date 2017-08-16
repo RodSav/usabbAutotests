@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"LGN-2 - Site login","VIR-506.01 Verify that the shopper can login to the system by entering email and password","ERROR","2017-08-11T14:08:19.944+03:00","0.0","0.17"
-"LGN-2 - Site login","VIR-506.02 Verify that the shopper is routed to the home page after successful login","ERROR","2017-08-11T14:08:20.122+03:00","0.0","0.15"
-"LGN-2 - Site login","VIR-506.03 Verify that the shopper is routed to the Virco.com site after successful logout","ERROR","2017-08-11T14:08:20.292+03:00","0.0","0.06"

@@ -1,6 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"PDP-1 - PDP Pricing","VIR-261.01 Verify that the subtotal is shown to the customer on the cart","PENDING","2017-08-11T14:08:23.522+03:00","0.0","0.0"
-"PDP-1 - PDP Pricing","VIR-261.02 Verify that the proper subtotal is shown, that depends on","PENDING","2017-08-11T14:08:23.646+03:00","0.0","0.0"
-"PDP-1 - PDP Pricing","VIR-261.03 Verify that the shopper can select any of the 4 delivery methods","PENDING","2017-08-11T14:08:23.743+03:00","0.0","0.0"
-"PDP-1 - PDP Pricing","VIR-261.04 Verify that the subtotal is changed accordingly if delivery method is changed","PENDING","2017-08-11T14:08:23.923+03:00","0.0","0.0"
-"PDP-1 - PDP Pricing","VIR-261.05 Verify that the subtotal is changed accordingly if contract is changed","PENDING","2017-08-11T14:08:24.046+03:00","0.0","0.0"

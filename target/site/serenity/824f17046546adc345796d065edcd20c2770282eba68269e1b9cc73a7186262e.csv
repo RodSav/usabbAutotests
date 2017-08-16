@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"ACT-19 - Static Email Address","VIR-244.01 Verify that the shopper can see their email address within Email in My Account Menu","ERROR","2017-08-11T14:07:07.833+03:00","0.0","0.32"
-"ACT-19 - Static Email Address","VIR-244.02 Verify that the email address is not editable","ERROR","2017-08-11T14:07:08.321+03:00","0.0","0.19"
