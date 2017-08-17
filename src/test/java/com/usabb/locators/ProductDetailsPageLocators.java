@@ -9,7 +9,7 @@ public interface ProductDetailsPageLocators {
     String CART_BUTTONS = "//*[contains(@class,'btn') and contains(text(),'$1')]";
     String CART_CLOSE_BUTTON = ".//*[@id='cboxClose']";
     String PRODUCT_NAME = "//div[@class='name']";
-    String PRODUCT_PRICE = "//div[@class='total-price']/strong";
+    String PRODUCT_PRICE = "//div/p[@class='price']";
     String PRODUCT_QUANTITY = "//*[@id='pdpAddtoCartInput']";
     String PRODUCT_NAME_IN_MODAL = "//a[@class='name']";
     String PRODUCT_PRICE_ON_MODAL = "//div[@class='price']";
@@ -22,6 +22,7 @@ public interface ProductDetailsPageLocators {
     String TOOLS_ASSEMBLY_SIGN = "//div[@class='product-details page-title']/following-sibling::div[1]";
     String SIMILAR_PRODUCT_PRICE_IN_MODAL = "//*[@id='cboxLoadedContent']//div[@class='price']";
     String PRODUCT_SKU = "//div[@class='sku']/span";
+    String PRODUCT_CODE = "//div[@class='name']/span[@class='code']";
     String MATERIAL_DESCRIPTION = "//div[@class='material-desc']/span";
     String TOOLS_ASSEMBLY = "//div[contains(@class,'page-details-variants-select')]/div/div";
     String LONG_DESCRIPTION = "//div[@class='tab-details']/p[1]";

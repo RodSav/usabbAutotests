@@ -24,9 +24,9 @@ public class ProductManagementPage extends PageObject {
     }
 
     public void clickOnProductCatalog(String arg0) {
-        withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.elementToBeClickable((WebElement) $(ProductManagementLocators.VIRCO_PRODUCT_CATALOG
+        withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.elementToBeClickable((WebElement) $(ProductManagementLocators.USABB_PRODUCT_CATALOG
                 .replace("$1", arg0))));
-        $(ProductManagementLocators.VIRCO_PRODUCT_CATALOG.replace("$1", arg0)).click();
+        $(ProductManagementLocators.USABB_PRODUCT_CATALOG.replace("$1", arg0)).click();
     }
 
     public void clickOnAdvancedSearchButton() {
@@ -116,6 +116,16 @@ public class ProductManagementPage extends PageObject {
         withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.elementToBeClickable(searchField));
         searchField.clear();
         searchField.sendKeys(productSku);
+        searchField.sendKeys(Keys.ENTER);
+    }
+
+    public void searchForProductSavedCode() {
+        HashMap<String, String> map = (HashMap<String, String>) Serenity.getCurrentSession().get("PDP");
+        String productCode = map.get("Code");
+        WebElement searchField = $(ContentManagementPageLocators.WCMS_CONTENT_SEARCH_FIELD);
+        withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.elementToBeClickable(searchField));
+        searchField.clear();
+        searchField.sendKeys(productCode);
         searchField.sendKeys(Keys.ENTER);
     }
 }

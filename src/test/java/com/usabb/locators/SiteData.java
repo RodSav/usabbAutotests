@@ -35,7 +35,7 @@ public interface SiteData {
     String PRODUCTMANAGER_PASSWORD = "1234";
 
     String ADMIN_LOGIN = "admin";
-    String ADMIN_PASSWORD = "v1rc04dm1n";
+    String ADMIN_PASSWORD = "nimda";
 
 
     String SHOPPER_NAME = "anthony.lombardi@rustic-hw.com";

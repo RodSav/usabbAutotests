@@ -17,7 +17,7 @@ public class ProductManagementDefinitionSteps {
 
     @When("^select \"([^\"]*)\" product catalog$")
     public void selectProductCatalog(String arg0) throws Throwable {
-        steps.clickOnVircoProductCatalog(arg0);
+        steps.clickOnUsabbProductCatalog(arg0);
     }
 
     @When("^click on advanced search button$")
@@ -74,5 +74,10 @@ public class ProductManagementDefinitionSteps {
     @When("^search for saved sku in cockpit$")
     public void searchForSavedSkuInCockpit() throws Throwable {
         steps.searchForProductSavedSku();
+    }
+
+    @When("^search for saved code in cockpit$")
+    public void searchForSavedCodeInCockpit() throws Throwable {
+        steps.searchForProductSavedCode();
     }
 }

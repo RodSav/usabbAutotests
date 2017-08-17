@@ -3,7 +3,7 @@ package com.usabb.locators;
 public interface ProductManagementLocators {
 
     String PIM_PAGE_SIGN = "//td[contains(text(),'Product')]";
-    String VIRCO_PRODUCT_CATALOG = "//div[@class='catalog_section_container']//div[contains(text(),'Virco Product Catalog $1')]";
+    String USABB_PRODUCT_CATALOG = "//div[@class='catalog_section_container']//div[contains(text(),'UsaBlueBook Product Catalog $1')]";
     String BUTTON_ADVANCED_SEARCH = "//a[@title='Advanced search']";
     String COMBOBOX_TYPE = "(//div[@class='advanceSearchTopArea']//img)[1]";
     String TD_DROP_DOWN_VARIANT_THAT_CONTAINS_TEXT = "//td[text()='$1']";

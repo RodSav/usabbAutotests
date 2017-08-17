@@ -89,14 +89,16 @@ public class ProductDetailsPage extends PageObject {
         productInformation.put("Price", price);
         String quantity = $(ProductDetailsPageLocators.PRODUCT_QUANTITY).getValue();
         productInformation.put("Quantity", quantity);
-        String sku = $(ProductDetailsPageLocators.PRODUCT_SKU).getText();
-        productInformation.put("SKU", sku);
-        String materialDescription = $(ProductDetailsPageLocators.MATERIAL_DESCRIPTION).getText();
-        productInformation.put("MaterialDescription", materialDescription);
-        String toolsAssembly = $(ProductDetailsPageLocators.TOOLS_ASSEMBLY).getText();
-        productInformation.put("ToolsAssembly", toolsAssembly);
-        String longDescription = $(ProductDetailsPageLocators.LONG_DESCRIPTION).getText();
-        productInformation.put("LongDescription", longDescription);
+        String code = $(ProductDetailsPageLocators.PRODUCT_CODE).getText();
+        productInformation.put("Code", code);
+//        String sku = $(ProductDetailsPageLocators.PRODUCT_SKU).getText();
+//        productInformation.put("SKU", sku);
+//        String materialDescription = $(ProductDetailsPageLocators.MATERIAL_DESCRIPTION).getText();
+//        productInformation.put("MaterialDescription", materialDescription);
+//        String toolsAssembly = $(ProductDetailsPageLocators.TOOLS_ASSEMBLY).getText();
+//        productInformation.put("ToolsAssembly", toolsAssembly);
+//        String longDescription = $(ProductDetailsPageLocators.LONG_DESCRIPTION).getText();
+//        productInformation.put("LongDescription", longDescription);
         Serenity.getCurrentSession().put("PDP", productInformation);
     }
 
@@ -219,6 +221,8 @@ public class ProductDetailsPage extends PageObject {
     }
 
     public boolean checkProductName(String arg0) {
+        String someVar;
+        someVar = $(ProductDetailsPageLocators.PRODUCT_NAME).getText();
         return $(ProductDetailsPageLocators.PRODUCT_NAME).getText().equalsIgnoreCase(arg0);
     }
 

@@ -18,7 +18,7 @@ public class ProductManagementUserSteps extends ScenarioSteps {
     }
 
     @Step
-    public void clickOnVircoProductCatalog(String argo) {
+    public void clickOnUsabbProductCatalog(String argo) {
         contentManagementPage.waitForSpinner();
         productManagementPage.clickOnProductCatalog(argo);
     }
@@ -87,6 +87,12 @@ public class ProductManagementUserSteps extends ScenarioSteps {
     @Step
     public void searchForProductSavedSku() {
         productManagementPage.searchForProductSavedSku();
+        contentManagementPage.waitForSpinner();
+    }
+
+    @Step
+    public void searchForProductSavedCode() {
+        productManagementPage.searchForProductSavedCode();
         contentManagementPage.waitForSpinner();
     }
 }
