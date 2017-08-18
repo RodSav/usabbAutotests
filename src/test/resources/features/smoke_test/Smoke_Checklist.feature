@@ -61,6 +61,7 @@ Feature: Smoke Check List
     When double click on "searchEmpty" content page
     When click on "Edit" button in "Middle" slot
     When enter "EmptySearchTest" in content component editor
+    ////////////////
     When synchronize the product
     Then the action button title is "Status: Synchronized"
 

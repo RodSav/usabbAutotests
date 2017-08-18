@@ -221,9 +221,7 @@ public class ProductDetailsPage extends PageObject {
     }
 
     public boolean checkProductName(String arg0) {
-        String someVar;
-        someVar = $(ProductDetailsPageLocators.PRODUCT_NAME).getText();
-        return $(ProductDetailsPageLocators.PRODUCT_NAME).getText().equalsIgnoreCase(arg0);
+        return $(ProductDetailsPageLocators.PRODUCT_NAME).getText().startsWith(arg0);
     }
 
     public boolean checkDropDownOnPdp(String arg0) {
