@@ -1,7 +1,6 @@
 Feature: Smoke Check List
   https://zaelab.atlassian.net/wiki/display/VIR/Smoke+Check+List
 
- #Done:
   @Smoke @Rail_105
   Scenario: SMOKE1.04 Verify that productmanager can login to the PIM
     Given open "PIM" page
@@ -61,7 +60,6 @@ Feature: Smoke Check List
     When double click on "searchEmpty" content page
     When click on "Edit" button in "Middle" slot
     When enter "EmptySearchTest" in content component editor
-    ////////////////
     When synchronize the product
     Then the action button title is "Status: Synchronized"
 
@@ -108,42 +106,40 @@ Feature: Smoke Check List
     When click on "Add to cart" button
     Then "Cart PDP" modal window is opened
 
-#Done:
-
-#  @Smoke  @Rail_115
-#  Scenario: SMOKE1.13 Verify that customer can create the order
-#    Given open "storefront" page
-#    When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
-#    When enter "12341234" in the "Password" field
-#    When click on login button
-#    When open any category
-#    When click on "1" product image in list
-#    When click on "Add to cart" button
-#    When click on "Check Out" button
-#    When click on "Check Out" button
-#    When select "Card Payment" radio button
-#    When click on "Next" button
-#    When select "United States" in "Country" drop-down
-#    When select "Ms" in "Title" drop-down
-#    When enter "testName" in the "First Name" field
-#    When enter "testLastName" in the "Last Name" field
-#    When enter "testName" in the "First Name" field
-#    When enter "test address line 1" in the "Address Line 1" field
-#    When enter "test City" in the "City" field
-#    When select "Alabama" in "State / Province" drop-down
-#    When enter "01234" in the "Zip / Postal Code" field
-#    When enter "0123456789" in the "Phone number" field
-#    When click on "Next" button
-#    When click on "Next" button
-#    When select "Visa" in "Card type" drop-down
-#    When enter "4111111111111111" in the "Card number" field
-#    When select "09" in "Expiry date*" drop-down
-#    When select "2024" in "Expiry" drop-down
-#    When enter "032" in the "Card Verification Number" field
-#    When click on "Next" button
-#    When accept T&C on checkout
-#    When click on "Place Order" button
-#    Then the order is created
+  @Smoke  @Rail_115
+  Scenario: SMOKE1.13 Verify that customer can create the order
+    Given open "storefront" page
+    When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
+    When enter "12341234" in the "Password" field
+    When click on login button
+    When open any category
+    When click on "1" product image in list
+    When click on "Add to cart" button
+    When click on "Check Out" button
+    When click on "Check Out" button
+    When select "Card Payment" radio button
+    When click on "Next" button
+    When select "United States" in "Country" drop-down
+    When select "Ms" in "Title" drop-down
+    When enter "testName" in the "First Name" field
+    When enter "testLastName" in the "Last Name" field
+    When enter "testName" in the "First Name" field
+    When enter "test address line 1" in the "Address Line 1" field
+    When enter "test City" in the "City" field
+    When select "Alabama" in "State / Province" drop-down
+    When enter "01234" in the "Zip / Postal Code" field
+    When enter "0123456789" in the "Phone number" field
+    When click on "Next" button
+    When click on "Next" button
+    When select "Visa" in "Card type" drop-down
+    When enter "4111111111111111" in the "Card number" field
+    When select "09" in "Expiry date*" drop-down
+    When select "2024" in "Expiry" drop-down
+    When enter "032" in the "Card Verification Number" field
+    When click on "Next" button
+    When accept T&C on checkout
+    When click on "Place Order" button
+    Then the order is created
 
   @Smoke @Rail_1065
   Scenario: SMOKE1.14 Verify that shopper can logout from the storefront
@@ -151,9 +147,8 @@ Feature: Smoke Check List
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
     When enter "12341234" in the "Password" field
     When click on login button
-#    When click on "My Account" link in header
     When click on sign out in header
-    Then login page is opened
+    Then home page is opened
 
   @Smoke   @Rail_116
   Scenario: SMOKE1.15 Verify that admin can login to the Backoffice
@@ -191,7 +186,7 @@ Feature: Smoke Check List
     When login as "productmanager"
     When select "Staged" product catalog
     When click on advanced search button
-    When select "VircoVariantProduct" in type combobox
+    When select "Product" in type combobox
     When perform products search
     When select "1" product from products list
     When enter "saved" in "Identifier:" editor field

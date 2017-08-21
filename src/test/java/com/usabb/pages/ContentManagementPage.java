@@ -202,8 +202,10 @@ public class ContentManagementPage extends PageObject {
         cockpitUtils.clickOn(component);
     }
 
+    // To do!!!!
     public void enterContentFromFileToComponentEditor(String arg0) {
         copyContentToClipBoard(arg0);
+        StringBuilder contentFromSource = new StringBuilder(ContentUtils.readContentFile("src/test/resources/content/" + arg0 + ".html"));
         cockpitUtils.waitForVisibilityWithCount(ContentManagementPageLocators.WCMS_CONTENT_FRAME);
         String frameId = new String();
         for (WebElementFacade element : findAll("//iframe")) {
@@ -216,7 +218,7 @@ public class ContentManagementPage extends PageObject {
         $(ContentManagementPageLocators.WCMS_CONTENT_SOURCE_BUTTON).click();
         WebElementFacade bottomArea = $(ContentManagementPageLocators.BOTTOM_TEXT_AREA);
         bottomArea.clear();
-        bottomArea.sendKeys(Keys.CONTROL + "v");
+        bottomArea.sendKeys(contentFromSource);
         $(ContentManagementPageLocators.WCMS_CONTENT_SOURCE_BUTTON).click();
         getDriver().switchTo().defaultContent();
     }
