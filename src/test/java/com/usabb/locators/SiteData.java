@@ -26,5 +26,5 @@ public interface SiteData {
     String SHOPPER_PASSWORD = "12341234";
 
     String TEST_USER_EMAIL = "test.usabb@gmail.com";
-    String TEST_USER_PASSWORD = "";
+    String TEST_USER_PASSWORD = "QweAsd1@#";
 }

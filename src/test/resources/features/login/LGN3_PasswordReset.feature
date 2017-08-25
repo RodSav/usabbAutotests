@@ -8,11 +8,11 @@ Feature: LGN-3 - Password Reset
     When click on "B2B Commerce" in backoffice
     When click on "B2B Customer" in backoffice
     When click on create button in backoffice
-    When enter "test.virco@gmail.com" in "ID:" field in backoffice
-    When enter "test.virco@gmail.com" in "Customer ID:" field in backoffice
-    When enter "test.virco@gmail.com" in "Name:" field in backoffice
-    When enter "test.virco@gmail.com" in "Description:" field in backoffice
-    When enter "test.virco@gmail.com" in "Email:" field in backoffice
+    When enter "test.usabb@gmail.com" in "ID:" field in backoffice
+    When enter "test.usabb@gmail.com" in "Customer ID:" field in backoffice
+    When enter "test.usabb@gmail.com" in "Name:" field in backoffice
+    When enter "test.usabb@gmail.com" in "Description:" field in backoffice
+    When enter "test.usabb@gmail.com" in "Email:" field in backoffice
     When click on "Next" modal button
     When click on "Next" modal button
     When enter "Rustic" in "Groups:" field in backoffice
@@ -22,27 +22,27 @@ Feature: LGN-3 - Password Reset
     When login as "admin"
     When click on "B2B Commerce" in backoffice
     When click on "B2B Customer" in backoffice
-    Then the "test.virco@gmail.com" is presented in the table backoffice
+    Then the "test.usabb@gmail.com" is presented in the table backoffice
 
   @Regression
   Scenario: VIR-507.02-03 Verify that the shopper is able to open change password modal window by clicking in the corresponding link
     Given open the site
-    When click on "Forgot Your Password?" button
+    When click on "Forgot your password?" button
     Then the reset password modal is shown
 
   @Regression
   Scenario: VIR-507.04 Verify that the email is sent to the shopper on changing password with the reset link
     Given open the site
-    When click on "Forgot Your Password?" button
-    When enter "test.virco@gmail.com" in the "Email Address" field in modal
+    When click on "Forgot your password?" button
+    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
     When click on "Reset Password" modal button
     Then the reset password email is sent
 
   @Regression
   Scenario: VIR-507.05 Verify that the shopper can enter new password on the reset link
     Given open the site
-    When click on "Forgot Your Password?" button
-    When enter "test.virco@gmail.com" in the "Email Address" field in modal
+    When click on "Forgot your password?" button
+    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
     When click on "Reset Password" modal button
     When open the reset link in email
     When enter "qWer%QQq" in the "New Password" field
@@ -53,27 +53,27 @@ Feature: LGN-3 - Password Reset
   @Regression
   Scenario: VIR-507.06 Verify that the shopper can login to the system with the new password
     Given open "storefront" page
-    When enter "test.virco@gmail.com" in the "Email Address" field
+    When enter "test.usabb@gmail.com" in the "Email Address" field
     When enter "qWer%QQq" in the "Password" field
     When click on login button
     Then home page is opened
 
-  @Regression
-  Scenario Outline: VIR-507.07 Verify the password creation validation rules
-    Given open the site
-    When click on "Forgot Your Password?" button
-    When enter "test.virco@gmail.com" in the "Email Address" field in modal
-    When click on "Reset Password" modal button
-    When open the reset link in email
-    When enter "<password>" in the "New Password" field
-    When enter "<password>" in the "Confirm Password" field
-    When click on "Update" modal button
-    Then alert with text "Please correct the errors below." is shown
-    Then validation message "Password should have at least one capital, at least one lowercase and at least one special character" is shown for "New Password" field
-    Examples:
-      | password  |
-      | qwer%zxcv |
-      | QWER%ZXCV |
-      | qWERqwer  |
-      | q         |
-      | qWer%qw   |
+#  @Regression
+#  Scenario Outline: VIR-507.07 Verify the password creation validation rules
+#    Given open the site
+#    When click on "Forgot your password?" button
+#    When enter "test.virco@gmail.com" in the "Email Address" field in modal
+#    When click on "Reset Password" modal button
+#    When open the reset link in email
+#    When enter "<password>" in the "New Password" field
+#    When enter "<password>" in the "Confirm Password" field
+#    When click on "Update" modal button
+#    Then alert with text "Please correct the errors below." is shown
+#    Then validation message "Password should have at least one capital, at least one lowercase and at least one special character" is shown for "New Password" field
+#    Examples:
+#      | password  |
+#      | qwer%zxcv |
+#      | QWER%ZXCV |
+#      | qWERqwer  |
+#      | q         |
+#      | qWer%qw   |
