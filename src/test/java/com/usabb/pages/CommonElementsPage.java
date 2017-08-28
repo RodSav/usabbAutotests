@@ -71,7 +71,9 @@ public class CommonElementsPage extends PageObject {
     }
 
     public void clickOnButtonInModalWindow(String arg0) {
-        $(CommonElementsLocators.BUTTON_IN_MODAL_WITH_NAME.replace("$1", arg0)).click();
+        WebElementFacade button = $(CommonElementsLocators.BUTTON_IN_MODAL_WITH_NAME.replace("$1", arg0));
+        withTimeoutOf(5, TimeUnit.SECONDS).waitFor(ExpectedConditions.visibilityOf(button));
+        button.click();
     }
 
     public void openAnyCategoryPage() {
