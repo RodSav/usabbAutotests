@@ -55,7 +55,7 @@ public class TestRail extends TestRailIntegration {
         String runName = "[" + enumValue + "] " + (suiteId == 1 ? "Automated Regression testing" : "Automated Smoke check list ") + dateAsISOString;
         int assignedToId = Integer.parseInt(getProperties().getProperty("assigned.to.id"));
         boolean includeAll = true;
-        int runId = Integer.valueOf(addRun(projectId, suiteId, runName, siteURL + "/vircostorefront", assignedToId, includeAll));
+        int runId = Integer.valueOf(addRun(projectId, suiteId, runName, siteURL + "/usabbstorefront", assignedToId, includeAll));
         logger.info("Run is created #" + runId);
         sendResults(runId, assignedToId);
         logger.info("Results are sent");

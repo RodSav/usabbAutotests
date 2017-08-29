@@ -57,23 +57,3 @@ Feature: LGN-3 - Password Reset
     When enter "qWer%QQq" in the "Password" field
     When click on login button
     Then home page is opened
-
-#  @Regression
-#  Scenario Outline: VIR-507.07 Verify the password creation validation rules
-#    Given open the site
-#    When click on "Forgot your password?" button
-#    When enter "test.virco@gmail.com" in the "Email Address" field in modal
-#    When click on "Reset Password" modal button
-#    When open the reset link in email
-#    When enter "<password>" in the "New Password" field
-#    When enter "<password>" in the "Confirm Password" field
-#    When click on "Update" modal button
-#    Then alert with text "Please correct the errors below." is shown
-#    Then validation message "Password should have at least one capital, at least one lowercase and at least one special character" is shown for "New Password" field
-#    Examples:
-#      | password  |
-#      | qwer%zxcv |
-#      | QWER%ZXCV |
-#      | qWERqwer  |
-#      | q         |
-#      | qWer%qw   |
