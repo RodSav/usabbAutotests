@@ -169,7 +169,7 @@ Feature: Smoke Check List
     Given open "BackOffice" page
     When login as "admin"
     When click on "Logout" link in backoffice
-    Then login page is openedпше
+    Then login page is opened
 
   @Smoke  @Rail_118
   Scenario: SMOKE1.18 Delete test data/changes created on steps 2, 5, 15
