@@ -30,13 +30,13 @@ Feature: LGN-3 - Password Reset
     When click on "Forgot your password?" button
     Then the reset password modal is shown
 
-  @Regression
-  Scenario: VIR-507.04 Verify that the email is sent to the shopper on changing password with the reset link
-    Given open the site
-    When click on "Forgot your password?" button
-    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
-    When click on "Reset Password" modal button
-    Then the reset password email is sent
+#  @Regression
+#  Scenario: VIR-507.04 Verify that the email is sent to the shopper on changing password with the reset link
+#    Given open the site
+#    When click on "Forgot your password?" button
+#    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
+#    When click on "Reset Password" modal button
+#    Then the reset password email is sent
 
   @Regression
   Scenario: VIR-507.05 Verify that the shopper can enter new password on the reset link
