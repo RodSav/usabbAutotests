@@ -42,26 +42,26 @@ Feature: Smoke Check List
     When remember product data on pdp
     Then remember page url
 
-# To refactor after PDP will be implemented:
+ #To refactor after PDP will be implemented:
 
-#  @Smoke @Rail_106 @Rail_107
-#  Scenario: SMOKE1.05-06 Verify that productmanager can change product description
-#    Given open "PIM" page
-#    When login as "productmanager"
-#    When select "Staged" product catalog
-#    When search for saved code in cockpit
-#    When select "1" product from products list
-#    When click on "Open in Edit Area" top link
-#    When remember value in "Identifier:" field
-#    When enter "THEREISTHEPRODUCTFORTHESMOKECHECK" in "Identifier:" editor field
-#    When start product catalog synchronization
-#    Then product is synchronized
-#
-#  @Smoke  @Rail_112
-#  Scenario: SMOKE1.11 Verify the changes of the product from step Scenario: SMOKE1.05
-#    Given open the site and login
-#    When open saved url
-#    Then product name is "THEREISTHEPRODUCTFORTHESMOKECHECK"
+  @Smoke @Rail_106 @Rail_107
+  Scenario: SMOKE1.05-06 Verify that productmanager can change product description
+    Given open "PIM" page
+    When login as "productmanager"
+    When select "Staged" product catalog
+    When search for saved code in cockpit
+    When select "1" product from products list
+    When click on "Open in Edit Area" top link
+    When remember value in "Identifier:" field
+    When enter "THEREISTHEPRODUCTFORTHESMOKECHECK" in "Identifier:" editor field
+    When start product catalog synchronization
+    Then product is synchronized
+
+  @Smoke  @Rail_112
+  Scenario: SMOKE1.11 Verify the changes of the product from step Scenario: SMOKE1.05
+    Given open the site and login
+    When open saved url
+    Then product name is "THEREISTHEPRODUCTFORTHESMOKECHECK"
 
   @Smoke @Rail_108
   Scenario: SMOKE1.07 Verify that productmanager can logout from PIM
@@ -182,13 +182,13 @@ Feature: Smoke Check List
     When enter "EmptySearch" in content component editor
     When synchronize the product
     Then the action button title is "Status: Synchronized"
-#    Given open "PIM" page
-#    When login as "productmanager"
-#    When select "Staged" product catalog
-#    When click on advanced search button
-#    When select "Product" in type combobox
-#    When perform products search
-#    When select "1" product from products list
-#    When enter "saved" in "Identifier:" editor field
-#    When start product catalog synchronization
-#    Then product is synchronized
+    Given open "PIM" page
+    When login as "productmanager"
+    When select "Staged" product catalog
+    When click on advanced search button
+    When select "Product" in type combobox
+    When perform products search
+    When select "1" product from products list
+    When enter "saved" in "Identifier:" editor field
+    When start product catalog synchronization
+    Then product is synchronized
