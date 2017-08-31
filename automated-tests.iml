@@ -139,9 +139,9 @@
     <orderEntry type="library" name="Maven: org.json:json:20160810" level="project" />
     <orderEntry type="library" name="Maven: org.skyscreamer:jsonassert:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
-    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC2" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-RC3" level="project" />
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0-RC1" level="project" />
-    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC2" level="project" />
+    <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-RC3" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.12" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.12" level="project" />

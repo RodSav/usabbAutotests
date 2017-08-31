@@ -40,6 +40,7 @@ public class LoginPage extends PageObject {
     }
 
     public String getResetPasswordLink() {
+        waitABit(10000);
         String link = new String();
         String regexp = "(p;<a)[^<>]*(>)";
         Pattern pattern = Pattern.compile(regexp);

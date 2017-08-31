@@ -8,6 +8,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {
         "src/test/resources/features/login/LGN2_SiteLogin.feature",
         "src/test/resources/features/login/LGN3_PasswordReset.feature"
-})
+},
+        tags = {
+                "@Login"}
+)
 public class LoginTestSuite {
 }

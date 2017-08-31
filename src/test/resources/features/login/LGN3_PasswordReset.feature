@@ -1,8 +1,8 @@
 Feature: LGN-3 - Password Reset
   As a customer on the site I would like to reset my password if I forgot it
 
-  @Regression
-  Scenario: VIR-507.01 Create new user in the Backoffice
+  @Login
+  Scenario: Create new user in the Backoffice
     Given open "BackOffice" page
     When login as "admin"
     When click on "B2B Commerce" in backoffice
@@ -24,22 +24,22 @@ Feature: LGN-3 - Password Reset
     When click on "B2B Customer" in backoffice
     Then the "test.usabb@gmail.com" is presented in the table backoffice
 
-  @Regression
-  Scenario: VIR-507.02-03 Verify that the shopper is able to open change password modal window by clicking in the corresponding link
+  @Login
+  Scenario: Verify that the shopper is able to open change password modal window by clicking in the corresponding link
     Given open the site
     When click on "Forgot your password?" button
     Then the reset password modal is shown
 
-#  @Regression
-#  Scenario: VIR-507.04 Verify that the email is sent to the shopper on changing password with the reset link
-#    Given open the site
-#    When click on "Forgot your password?" button
-#    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
-#    When click on "Reset Password" modal button
-#    Then the reset password email is sent
+  @Login
+  Scenario: Verify that the email is sent to the shopper on changing password with the reset link
+    Given open the site
+    When click on "Forgot your password?" button
+    When enter "test.usabb@gmail.com" in the "Email Address" field in modal
+    When click on "Reset Password" modal button
+    Then the reset password email is sent
 
-  @Regression
-  Scenario: VIR-507.05 Verify that the shopper can enter new password on the reset link
+  @Login
+  Scenario: Verify that the shopper can enter new password on the reset link
     Given open the site
     When click on "Forgot your password?" button
     When enter "test.usabb@gmail.com" in the "Email Address" field in modal
@@ -50,8 +50,8 @@ Feature: LGN-3 - Password Reset
     When click on "Update" modal button
     Then alert with text "Success! You can now login using your new password." is shown
 
-  @Regression
-  Scenario: VIR-507.06 Verify that the shopper can login to the system with the new password
+  @Login
+  Scenario: Verify that the shopper can login to the system with the new password
     Given open "storefront" page
     When enter "test.usabb@gmail.com" in the "Email Address" field
     When enter "qWer%QQq" in the "Password" field
