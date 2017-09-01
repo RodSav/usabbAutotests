@@ -84,6 +84,7 @@ public class ProductDetailsPage extends PageObject {
     public void rememberProductDataOnPdp() {
         HashMap<String, String> productInformation = new HashMap<>();
         String name = $(ProductDetailsPageLocators.PRODUCT_NAME).getText();
+        name = name.split("ID")[0];
         productInformation.put("Name", name);
         String price = $(ProductDetailsPageLocators.PRODUCT_PRICE).getText();
         productInformation.put("Price", price);

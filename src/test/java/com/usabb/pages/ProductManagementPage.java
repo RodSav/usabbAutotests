@@ -125,6 +125,7 @@ public class ProductManagementPage extends PageObject {
         WebElement searchField = $(ContentManagementPageLocators.WCMS_CONTENT_SEARCH_FIELD);
         withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.elementToBeClickable(searchField));
         searchField.clear();
+        waitABit(10000);
         searchField.sendKeys(productCode);
         searchField.sendKeys(Keys.ENTER);
     }

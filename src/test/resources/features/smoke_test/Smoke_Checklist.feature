@@ -1,6 +1,7 @@
 Feature: Smoke Check List
   https://zaelab.atlassian.net/wiki/display/VIR/Smoke+Check+List
 
+
   @Smoke @Rail_105
   Scenario: SMOKE1.04 Verify that productmanager can login to the PIM
     Given open "PIM" page
@@ -69,6 +70,7 @@ Feature: Smoke Check List
     When login as "cmsmanager"
     When logout from CMS
     Then login page is opened
+
 
   @Smoke @Rail_109
   Scenario: SMOKE1.08 Verify that user can open storefront

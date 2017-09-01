@@ -15,7 +15,7 @@ public interface ProductDetailsPageLocators {
     String PRODUCT_PRICE_ON_MODAL = "//div[@class='price']";
     String QUANTITY_FIELD = "//*[@id='pdpAddtoCartInput']";
     String QUANTITY_BUTTON = "//button[contains(@class,'$1')]";
-    String SIMILAR_PRODUCTS_LINKS = "//div[text()='$1']/folTlowing-sibling::div//a";
+    String SIMILAR_PRODUCTS_LINKS = "//div[text()='$1']/following-sibling::div//a";
     String SIMILAR_PRODUCTS_NAMES = "//div[text()='$1']/following-sibling::div//div[@class='item-name']";
     String SIMILAR_PRODUCTS_PRICES = "//div[text()='$1']/following-sibling::div//div[@class='priceContainer']";
     String SIMILAR_PRODUCT_LINK_IN_POP_UP = "//div[@id='cboxWrapper']//div[@class='name']/a";
@@ -29,4 +29,5 @@ public interface ProductDetailsPageLocators {
     String VARIANT_PRODUCT_SELECTORS = "//div[@class='variant-selector']//div[contains(@class,'variant-name')]";
     String QTY_DROP_DOWN = "//button[@data-toggle='dropdown']";
     String QTY_DROP_DOWN_VALUES = "//button[@data-toggle='dropdown']/following-sibling::ul//a[text()='$1']";
+    String CART_MODAL_CHECKOUT_BUTTON_NAME = "Continue with Payment";
 }
