@@ -56,7 +56,7 @@ public class ProductManagementPage extends PageObject {
 
     public void selectProductByNumberFromTheList(String arg0) {
         WebElement product = $(ProductManagementLocators.PRODUCT_FROM_GRID_BY_NUMBER.replace("$1", arg0));
-        withTimeoutOf(120, TimeUnit.SECONDS).waitFor(ExpectedConditions.visibilityOf(product));
+        withTimeoutOf(60, TimeUnit.SECONDS).waitFor(ExpectedConditions.visibilityOf(product));
         Actions actions = new Actions(getDriver());
         actions.moveToElement(product)
                 .doubleClick().build().perform();

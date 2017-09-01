@@ -1,31 +1,6 @@
 Feature: Smoke Check List
   https://zaelab.atlassian.net/wiki/display/VIR/Smoke+Check+List
 
-  @Smoke @Rail_102
-  Scenario: SMOKE1.01 Verify that cmsmanager can login to the CMS
-    Given open "CMS" page
-    When login as "cmsmanager"
-    Then cmsmanager has logged in
-
-  @Smoke @Rail_103
-  Scenario: SMOKE1.02 Verify that cmsmanager can change the page view
-    Given open "CMS" page
-    When login as "cmsmanager"
-    When select "Staged" content catalog
-    When search for "Empty" content
-    When double click on "searchEmpty" content page
-    When click on "Edit" button in "Middle" slot
-    When enter "EmptySearchTest" in content component editor
-    When synchronize the product
-    Then the action button title is "Status: Synchronized"
-
-  @Smoke @Rail_104
-  Scenario: SMOKE1.03 Verify that cmsmanager can logout from CMS
-    Given open "CMS" page
-    When login as "cmsmanager"
-    When logout from CMS
-    Then login page is opened
-
   @Smoke @Rail_105
   Scenario: SMOKE1.04 Verify that productmanager can login to the PIM
     Given open "PIM" page
@@ -67,6 +42,31 @@ Feature: Smoke Check List
   Scenario: SMOKE1.07 Verify that productmanager can logout from PIM
     Given open "PIM" page
     When login as "productmanager"
+    When logout from CMS
+    Then login page is opened
+
+  @Smoke @Rail_102
+  Scenario: SMOKE1.01 Verify that cmsmanager can login to the CMS
+    Given open "CMS" page
+    When login as "cmsmanager"
+    Then cmsmanager has logged in
+
+  @Smoke @Rail_103
+  Scenario: SMOKE1.02 Verify that cmsmanager can change the page view
+    Given open "CMS" page
+    When login as "cmsmanager"
+    When select "Staged" content catalog
+    When search for "Empty" content
+    When double click on "searchEmpty" content page
+    When click on "Edit" button in "Middle" slot
+    When enter "EmptySearchTest" in content component editor
+    When synchronize the product
+    Then the action button title is "Status: Synchronized"
+
+  @Smoke @Rail_104
+  Scenario: SMOKE1.03 Verify that cmsmanager can logout from CMS
+    Given open "CMS" page
+    When login as "cmsmanager"
     When logout from CMS
     Then login page is opened
 
