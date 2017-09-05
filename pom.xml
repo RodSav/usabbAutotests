@@ -128,7 +128,7 @@
                         <exclude>**/AcceptanceTestSuite.java</exclude>
                         <exclude>com.usabb.utils.AggregateResults</exclude>
                         <exclude>com.usabb.utils.ExecutionDelay</exclude>
-                        <exclude>**/SmokeTestSuite.java</exclude>
+                        <!--<exclude>**/SmokeTestSuite.java</exclude>-->
                     </excludes>
                     <argLine>-Xmx512m</argLine>
                 </configuration>
