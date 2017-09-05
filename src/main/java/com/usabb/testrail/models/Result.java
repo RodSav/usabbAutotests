@@ -25,6 +25,16 @@ public class Result {
     @JsonProperty("testFailureSummary")
     private String testFailureSummary;
 
+    public String getFailedStep() {
+        return failedStep;
+    }
+
+    public void setFailedStep(String failedStep) {
+        this.failedStep = failedStep;
+    }
+
+    private String failedStep;
+
     public String getName() {
         return name;
     }

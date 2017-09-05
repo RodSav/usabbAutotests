@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class TestRailSetUp {
 
-    private static final Logger logger = LoggerFactory.getLogger(TestRailSetUp.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TestRailSetUp.class);
 
     InputStream inputStream;
 
@@ -23,12 +23,12 @@ public class TestRailSetUp {
             if (inputStream != null) {
                 prop.load(inputStream);
             } else {
-                logger.error("property file '" + propFilePath + "' not found in the classpath");
+                LOGGER.error("property file '" + propFilePath + "' not found in the classpath");
                 throw new FileNotFoundException("property file '" + propFilePath + "' not found in the classpath");
             }
             return prop;
         } catch (IOException e) {
-            logger.error("Exception {}" + e);
+            LOGGER.error("Exception {}" + e);
         } finally {
             if (inputStream != null) {
                 inputStream.close();

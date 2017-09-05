@@ -1,9 +1,7 @@
 package com.usabb.testrail.types;
 
 public enum SiteType {
-    ZLB_DEV("https://34.207.13.246"),
-    SAP_DEV("https://hybris-dev.usabb.com"),
-    SAP_STG("https://hybris-stg.usabb.com");
+    ZLB_DEV("https://usabb-dev.zaelab.com");
 
     private final String name;
 

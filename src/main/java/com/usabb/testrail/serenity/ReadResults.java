@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReadResults {
 
-    private static final Logger logger = LoggerFactory.getLogger(ReadResults.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ReadResults.class);
 
     /**
      * @param folderPath
@@ -30,15 +30,15 @@ public class ReadResults {
                         nameWithOutExtension = files[i].getName().substring(files[i].getName().lastIndexOf('.'));
                         if (nameWithOutExtension.equalsIgnoreCase(".json") && files[i].getName().length() > 60) {
                             filesPath.add(files[i].getPath());
-                            logger.debug("Add json report {}", files[i].getPath());
+                            LOGGER.debug("Add json report {}", files[i].getPath());
                         }
                     } catch (StringIndexOutOfBoundsException ex) {
-                        logger.debug("Found file without extension {}", (Object[]) ex.getStackTrace());
+                        LOGGER.debug("Found file without extension {}", (Object[]) ex.getStackTrace());
                     }
 
                 }
             }
-        } else logger.error("The folder doesn't contain files.");
+        } else LOGGER.error("The folder doesn't contain files.");
         return filesPath;
     }
 
@@ -56,7 +56,7 @@ public class ReadResults {
                 stringBuilder.append(line);
             }
         } catch (IOException e) {
-            logger.error("Cant read JSON file {}", (Object[]) e.getStackTrace());
+            LOGGER.error("Cant read JSON file {}", (Object[]) e.getStackTrace());
         }
         return stringBuilder.toString();
     }

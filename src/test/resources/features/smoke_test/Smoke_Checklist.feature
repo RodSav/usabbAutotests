@@ -1,8 +1,8 @@
 Feature: Smoke Check List
-  https://zaelab.atlassian.net/wiki/display/VIR/Smoke+Check+List
+  https://zaelab.atlassian.net/wiki/display/Smoke+Check+List
 
 
-  @Smoke @Rail_105
+  @Smoke @Rail_9845
   Scenario: SMOKE1.04 Verify that productmanager can login to the PIM
     Given open "PIM" page
     When login as "productmanager"
@@ -20,7 +20,7 @@ Feature: Smoke Check List
 
  #To refactor after PDP will be implemented:
 
-  @Smoke @Rail_106 @Rail_107
+  @Smoke @Rail_9846 @Rail_9847
   Scenario: SMOKE1.05-06 Verify that productmanager can change product description
     Given open "PIM" page
     When login as "productmanager"
@@ -33,26 +33,26 @@ Feature: Smoke Check List
     When start product catalog synchronization
     Then product is synchronized
 
-  @Smoke  @Rail_112
+  @Smoke  @Rail_9852
   Scenario: SMOKE1.11 Verify the changes of the product from step Scenario: SMOKE1.05
     Given open the site and login
     When open saved url
     Then product name is "THEREISTHEPRODUCTFORTHESMOKECHECK"
 
-  @Smoke @Rail_108
+  @Smoke @Rail_9848
   Scenario: SMOKE1.07 Verify that productmanager can logout from PIM
     Given open "PIM" page
     When login as "productmanager"
     When logout from CMS
     Then login page is opened
 
-  @Smoke @Rail_102
+  @Smoke @Rail_9842
   Scenario: SMOKE1.01 Verify that cmsmanager can login to the CMS
     Given open "CMS" page
     When login as "cmsmanager"
     Then cmsmanager has logged in
 
-  @Smoke @Rail_103
+  @Smoke @Rail_9843
   Scenario: SMOKE1.02 Verify that cmsmanager can change the page view
     Given open "CMS" page
     When login as "cmsmanager"
@@ -64,7 +64,7 @@ Feature: Smoke Check List
     When synchronize the product
     Then the action button title is "Status: Synchronized"
 
-  @Smoke @Rail_104
+  @Smoke @Rail_9844
   Scenario: SMOKE1.03 Verify that cmsmanager can logout from CMS
     Given open "CMS" page
     When login as "cmsmanager"
@@ -72,7 +72,7 @@ Feature: Smoke Check List
     Then login page is opened
 
 
-  @Smoke @Rail_109
+  @Smoke @Rail_9849
   Scenario: SMOKE1.08 Verify that user can open storefront
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -80,7 +80,7 @@ Feature: Smoke Check List
     When click on login button
     Then home page is opened
 
-  @Smoke @Rail_110
+  @Smoke @Rail_9850
   Scenario: SMOKE1.09 Verify that user can login to the storefront
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -88,7 +88,7 @@ Feature: Smoke Check List
     When click on login button
     Then the user is logged in
 
-  @Smoke @Rail_111
+  @Smoke @Rail_9851
   Scenario: SMOKE1.10 Verify the changes at the page from step SMOKE1.02
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -97,7 +97,7 @@ Feature: Smoke Check List
     When search for "ITISTHECHECKFORCMS"
     Then "EmptySearchTest" content is opened
 
-  @Smoke  @Rail_113
+  @Smoke  @Rail_9853
   Scenario: SMOKE1.12 Verify that product can be added to the cart
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -108,7 +108,7 @@ Feature: Smoke Check List
     When click on "Add to cart" button
     Then "Cart PDP" modal window is opened
 
-  @Smoke  @Rail_115
+  @Smoke  @Rail_9854
   Scenario: SMOKE1.13 Verify that customer can create the order
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -143,7 +143,7 @@ Feature: Smoke Check List
     When click on "Place Order" button
     Then the order is created
 
-  @Smoke @Rail_1065
+  @Smoke @Rail_9855
   Scenario: SMOKE1.14 Verify that shopper can logout from the storefront
     Given open "storefront" page
     When enter "anthony.lombardi@rustic-hw.com" in the "Email Address" field
@@ -152,13 +152,13 @@ Feature: Smoke Check List
     When click on sign out in header
     Then home page is opened
 
-  @Smoke   @Rail_116
+  @Smoke   @Rail_9856
   Scenario: SMOKE1.15 Verify that admin can login to the Backoffice
     Given open "BackOffice" page
     When login as "admin"
     Then the user has logged in backoffice
 
-  @Smoke  @Rail_117
+  @Smoke  @Rail_9857
   Scenario: SMOKE1.16 Verify the created order from step SMOKE1.13 in backoffice
     Given open "BackOffice" page
     When login as "admin"
@@ -166,14 +166,14 @@ Feature: Smoke Check List
     When click on "Orders" in backoffice
     Then created order is presented in the list
 
-  @Smoke  @Rail_1066
+  @Smoke  @Rail_9858
   Scenario: SMOKE1.17 Verify that admin can logout from the backoffice
     Given open "BackOffice" page
     When login as "admin"
     When click on "Logout" link in backoffice
     Then login page is opened
 
-  @Smoke  @Rail_118
+  @Smoke  @Rail_9859
   Scenario: SMOKE1.18 Delete test data/changes created on steps 2, 5, 15
     Given open "CMS" page
     When login as "cmsmanager"

@@ -2,17 +2,19 @@ package com.usabb.testrail;
 
 import com.gurock.testrail.APIClient;
 import com.usabb.testrail.types.SiteType;
+import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Properties;
 
 public class TestRail extends TestRailIntegration {
 
-    private static final Logger logger = LoggerFactory.getLogger(TestRail.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TestRail.class);
     TestRailSetUp setUp;
 
     @Override
@@ -31,34 +33,39 @@ public class TestRail extends TestRailIntegration {
         try {
             return setUp.getProperties();
         } catch (IOException e) {
-            logger.error("Error read properties {}", (Object[]) e.getStackTrace());
+            LOGGER.error("Error read properties {}", (Object[]) e.getStackTrace());
         }
         return new Properties();
     }
 
+    public boolean isResultsPresented() {
+        return isResultsArePresented();
+    }
 
     public void sendResults() {
         setUp = new TestRailSetUp();
-        logger.info("Set properties.");
+        LOGGER.info("Set properties.");
         int projectId = Integer.parseInt(getProperties().getProperty("project.id"));
-        int suiteId = 1;
+        int suiteId = 104;
         if (getExecutionTag() != null && getExecutionTag().equalsIgnoreCase("@Smoke")) {
             suiteId = Integer.parseInt(getProperties().getProperty("test.run.smoke.id"));
         }
         String siteURL = System.getProperty("webdriver.base.url");
+//        String siteURL = "https://usabb-dev.zaelab.com";
         java.util.Date date = new java.util.Date(System.currentTimeMillis());
         DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dateAsISOString = df.format(date);
-        logger.info("Site url " + siteURL);
-        logger.info(SiteType.getEnumByString(siteURL));
+        LOGGER.info("Site url " + siteURL);
+        LOGGER.info(SiteType.getEnumByString(siteURL));
         String enumValue = SiteType.getEnumByString(siteURL);
-        String runName = "[" + enumValue + "] " + (suiteId == 1 ? "Automated Regression testing" : "Automated Smoke check list ") + dateAsISOString;
+        String runName = "[" + enumValue + "] " + (suiteId == 1 ? "Automated Regression testing " : "Automated Smoke check list ") + dateAsISOString;
         int assignedToId = Integer.parseInt(getProperties().getProperty("assigned.to.id"));
-        boolean includeAll = true;
-        int runId = Integer.valueOf(addRun(projectId, suiteId, runName, siteURL + "/usabbstorefront", assignedToId, includeAll));
-        logger.info("Run is created #" + runId);
+        boolean includeAll = false;
+        ArrayList<Integer> executedTags = getExecutedTestRailIds();
+        int runId = Integer.valueOf(addRun(projectId, suiteId, runName, siteURL + "/usabbstorefront", assignedToId, includeAll, executedTags));
+        LOGGER.info("Run is created #" + runId);
         sendResults(runId, assignedToId);
-        logger.info("Results are sent");
+        LOGGER.info("Results are sent");
         closeTestRun(runId);
     }
 
