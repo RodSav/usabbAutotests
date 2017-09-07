@@ -1,7 +1,7 @@
 Feature: Save Shopping Cart
   As a contact on the site I would like to save shopping carts, name saved carts and restore saved carts
 
-  @SaveCart @Rail_9846
+  @SaveCart
   Scenario: Verify that the shopper can see the saved carts within My Account
     Given open the site and login
     When click on "My Account" link in header
@@ -15,7 +15,7 @@ Feature: Save Shopping Cart
     When click on "Saved Carts" in My Account drop-down
     Then delete all saved carts
 
-  @SaveCart
+  @SaveCart @Rail_9819
   Scenario: Verify that cart can be saved and shown on saved carts page
     Given open the site and login
     When click on "Screwdrivers" in navigation menu
@@ -31,7 +31,7 @@ Feature: Save Shopping Cart
     When click on "Saved Carts" link
     Then the saved cart "TestCart1" with description "TestDescription" is shown on the page
 
-  @SaveCart
+  @SaveCart @Rail_9821
   Scenario: Verify that saved cart can be restored
     Given open the site and login
     When click on "Screwdrivers" in navigation menu
@@ -50,7 +50,7 @@ Feature: Save Shopping Cart
     When restore the cart
     Then products on checkout page are correct
 
-  @SaveCart
+  @SaveCart @Rail_9820
   Scenario: Verify that saved cart can be updated
     Given open the site and login
     When click on "Screwdrivers" in navigation menu
