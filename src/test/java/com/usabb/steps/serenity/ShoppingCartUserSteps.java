@@ -119,4 +119,8 @@ public class ShoppingCartUserSteps extends ScenarioSteps {
     public void verifyTheQuantityInTheMiniCart(String arg0) {
         Assert.assertTrue("Wrong quantity in the mini cart, Expected: " + arg0 + " but Found " + shoppingCartPage.getQuantityInTheMiniCart(), arg0.equalsIgnoreCase(shoppingCartPage.getQuantityInTheMiniCart()));
     }
+
+    public void clickOnLinkInCartHeader(String arg0) {
+        shoppingCartPage.clickOnLinkInCartHeader(arg0);
+    }
 }

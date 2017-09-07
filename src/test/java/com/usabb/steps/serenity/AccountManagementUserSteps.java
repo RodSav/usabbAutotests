@@ -156,7 +156,7 @@ public class AccountManagementUserSteps extends ScenarioSteps {
     @Step
     public void commonPagesCheck(String pageName) {
         SoftAssert.assertTrue("Wrong page title. Expected: " + pageName + ", but found: " + globalElements.getPageTitle(), globalElements.getPageTitle().contains(pageName));
-        SoftAssert.assertTrue("Wrong last breadcrumb. Expected: " + pageName + ", but found: " + globalElements.getLastBreadcrumb(), pageName.equals(globalElements.getLastBreadcrumb()));
+//        SoftAssert.assertTrue("Wrong last breadcrumb. Expected: " + pageName + ", but found: " + globalElements.getLastBreadcrumb(), pageName.equals(globalElements.getLastBreadcrumb()));
         SoftAssert.assertTrue("Wrong page " + pageName + " body name", managementPage.getPageBodyName().contains(pageName));
     }
 

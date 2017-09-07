@@ -1,6 +1,7 @@
 package com.usabb.steps;
 
 import com.usabb.steps.serenity.ShoppingCartUserSteps;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Steps;
@@ -93,5 +94,10 @@ public class ShoppingCartDefinitionSteps {
     @Then("^the quantity in the mini cart is \"([^\"]*)\"$")
     public void theQuantityInTheMiniCartIs(String arg0) throws Throwable {
         steps.verifyTheQuantityInTheMiniCart(arg0);
+    }
+
+    @When("^click on \"([^\"]*)\" link$")
+    public void clickOnLinkInCartHeader(String arg0) throws Throwable {
+        steps.clickOnLinkInCartHeader(arg0);
     }
 }

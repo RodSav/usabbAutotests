@@ -30,7 +30,7 @@ public class ShoppingCartPage extends PageObject {
             // product.setStock(findAll(ShoppingCartLocators.ALL_PRODUCTS_STOCK).get(i).getText());
             product.setPrice(findAll(ShoppingCartLocators.ALL_PRODUCTS_PRICE).get(i).getText());
             product.setQuantity($(ShoppingCartLocators.ALL_QUANTITY_INPUT.replace("$1", String.valueOf(i))).getValue());
-            product.setDelivery(findAll(ShoppingCartLocators.ALL_DELIVERY).get(i).getText());
+//            product.setDelivery(findAll(ShoppingCartLocators.ALL_DELIVERY).get(i).getText());
             product.setTotalPrice(findAll(ShoppingCartLocators.ALL_TOTAL_PRICE).get(i).getText());
             products.add(product);
         }
@@ -234,5 +234,9 @@ public class ShoppingCartPage extends PageObject {
     public String getQuantityInTheMiniCart() {
         String qtyText = $(ShoppingCartLocators.QTY_IN_MINI_CART).getText();
         return qtyText.substring(0, qtyText.lastIndexOf(' '));
+    }
+
+    public void clickOnLinkInCartHeader(String arg0) {
+        $(ShoppingCartLocators.CART_HEADER_LINK.replace("$1", arg0)).click();
     }
 }

@@ -1,60 +1,43 @@
-Feature: ACT-21 - View Saved Carts
-  As a shopper, I require the ability to view my saved carts within my account
+Feature: Save Shopping Cart
+  As a contact on the site I would like to save shopping carts, name saved carts and restore saved carts
 
-  @Regression
-  Scenario: VIR-246.01 Verify that the shopper can see the saved carts within My Account
+  @SaveCart @Rail_9846
+  Scenario: Verify that the shopper can see the saved carts within My Account
     Given open the site and login
     When click on "My Account" link in header
     When click on "Saved Carts" in My Account drop-down
     Then the "Saved Carts" my account page is opened
 
-  @Regression
-  Scenario: VIR-246.02 Remove all from saved carts
+  @SaveCart
+  Scenario: Remove all from saved carts
     Given open the site and login
     When click on "My Account" link in header
     When click on "Saved Carts" in My Account drop-down
     Then delete all saved carts
 
-  @Regression
-  Scenario: VIR-246.03 Verify that the saved cart is shown on the saved carts page
+  @SaveCart
+  Scenario: Verify that cart can be saved and shown on saved carts page
     Given open the site and login
-    When open category with pagination
+    When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Checkout" button
+    When click on "Check Out" button
     When remember products information on checkout page
-    When click on "New Cart" button
-    When enter "TestSaved" in the "Name" field
+    When click on "New Cart" link
+    When enter "TestCart1" in the "Name" field
     When enter "TestDescription" in the "Description" textarea
     When click on "Save" modal button
-    Then alert with text "Cart TestSaved was successfully saved" is shown
-    When click on "Saved Carts (" button
-    Then the saved cart "TestSaved" with description "TestDescription" is shown on the page
+    Then alert with text "Cart TestCart1 was successfully saved" is shown
+    When click on "Saved Carts" link
+    Then the saved cart "TestCart1" with description "TestDescription" is shown on the page
 
-  @Regression
-  Scenario: VIR-246.04 Verify that the products and their selected quantities are shown at the saved cart page
+  @SaveCart
+  Scenario: Verify that saved cart can be restored
     Given open the site and login
-    When open category with pagination
+    When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Checkout" button
-    When remember products information on checkout page
-    When click on "New Cart" button
-    When enter "TestProducts" in the "Name" field
-    When enter "TestProductsDescription" in the "Description" textarea
-    When click on "Save" modal button
-    Then alert with text "Cart TestProducts was successfully saved" is shown
-    When click on "Saved Carts (" button
-    When click on "TestProducts" saved cart
-    Then products on saved cart are correct
-
-  @Regression
-  Scenario: VIR-246.05 Verify that saved cart can be restored
-    Given open the site and login
-    When open category with pagination
-    When click on "1" product image in list
-    When click on "Add to cart" button
-    When click on "Checkout" button
+    When click on "Check Out" button
     When remember products information on checkout page
     When click on "New Cart" button
     When enter "TestRestore" in the "Name" field
@@ -67,13 +50,13 @@ Feature: ACT-21 - View Saved Carts
     When restore the cart
     Then products on checkout page are correct
 
-  @Regression
-  Scenario: VIR-246.06 Verify that saved cart can be updated
+  @SaveCart
+  Scenario: Verify that saved cart can be updated
     Given open the site and login
-    When open category with pagination
+    When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Checkout" button
+    When click on "Check Out" button
     When click on "New Cart" button
     When enter "TestUpdate" in the "Name" field
     When enter "TestDescriptionUpdate" in the "Description" textarea
@@ -90,13 +73,13 @@ Feature: ACT-21 - View Saved Carts
     Then the cart "TestUpdateTest" is presented on saved cart page
     Then the description of "TestUpdateTest" cart is "TestDescriptionUpdateTest"
 
-  @Regression
-  Scenario: VIR-246.07 Verify that saved cart can be removed
+  @SaveCart
+  Scenario: Verify that saved cart can be removed
     Given open the site and login
-    When open category with pagination
+    When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Checkout" button
+    When click on "Check Out" button
     When click on "New Cart" button
     When enter "TestRemove" in the "Name" field
     When enter "TestDescriptionRemove" in the "Description" textarea
@@ -108,5 +91,4 @@ Feature: ACT-21 - View Saved Carts
     Then the cart "TestRemove" is not presented on saved cart page
 
 
-  @TBD
-  Scenario: VIR-440.01 The cart q-ty is not based on the item level for the saved carts
+

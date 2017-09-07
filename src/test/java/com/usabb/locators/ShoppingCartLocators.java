@@ -9,7 +9,7 @@ public interface ShoppingCartLocators {
     String ALL_PRODUCTS_PRICE = "//div[@class='item__price']";
     String ALL_QUANTITY_INPUT = "//input[@name='quantity' and contains(@id,'quantity_$1')]";
     String ALL_DELIVERY = "//span[@class='item__delivery--label']";
-    String ALL_TOTAL_PRICE = "//div[@class='item__price']/following-sibling::div[1]";
+    String ALL_TOTAL_PRICE = "//div[@class='item__price']/following-sibling::div[3]";
     String ALL_REMOVE_BUTTON_POINT = "//div[@class='btn-group']/button";
     String ALL_REMOVE_BUTTON = "//li[contains(@id,'removeEntry')]";
     String ALL_ASSEMBLY_REQUIRED = "//div[@class='item__assemblyRequired']/div";
@@ -24,4 +24,8 @@ public interface ShoppingCartLocators {
     String MINI_CART_MODAL = ".//*[@id='cboxContent']";
     String ALL_COLOR = "//span[@class='item__stock']";
     String QTY_IN_MINI_CART = "//span[@class='nav-items-total']";
+    String CART_HEADER_LINK = "//div[@class='cart-header border']//a[contains(text(), '$1')]";
+//    String SAVE_CART_MODAL_NAME_FIELD = "//*[@id='saveCartName']";
+    String SAVE_CART_MODAL_DESCRIPTION_FIELD = "//*[@id='saveCartDescription']";
+
 }
