@@ -37,6 +37,11 @@ public class AccountManagementDefinitionSteps {
         steps.verifyThatSavedCartIsShownOnThePage(arg0, arg1);
     }
 
+    @Then("^the saved list \"([^\"]*)\" is shown on the page$")
+    public void theSavedListIsShownOnThePage(String arg0) throws Throwable {
+        steps.verifyThatSavedListIsShownOnThePage(arg0);
+    }
+
     @Then("^delete all saved carts$")
     public void deleteAllSavedCarts() throws Throwable {
         steps.removeAllSavedCarts();

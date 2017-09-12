@@ -2,6 +2,7 @@ package com.usabb.steps.serenity;
 
 import com.usabb.locators.SiteData;
 import com.usabb.pages.AccountManagementPage;
+import com.usabb.pages.SavedListsPage;
 import com.usabb.pages.CommonElementsPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -13,6 +14,7 @@ public class CommonUserSteps extends ScenarioSteps {
 
     CommonElementsPage commonElementsPage;
     AccountManagementPage managementPage;
+    SavedListsPage savedListsPage;
 
     @Step
     public void openTheSite() {
@@ -142,5 +144,9 @@ public class CommonUserSteps extends ScenarioSteps {
     @Step
     public void verifyValidationMessageForField(String arg0, String arg1) {
         Assert.assertTrue("Validation message is not correct for field" + arg1, arg0.equals(commonElementsPage.getValidationMessageOfFieldWithLabel(arg1)));
+    }
+
+    public void clickOnButtonInModalAction(String arg0) {
+        savedListsPage.clickOnButtonInModalAction(arg0);
     }
 }

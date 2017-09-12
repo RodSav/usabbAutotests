@@ -16,6 +16,11 @@ public class ShoppingCartDefinitionSteps {
         steps.rememberInformationOffAllProductsOnCartPage();
     }
 
+    @When("^remember products information on list page$")
+    public void rememberProductsInformationOnListPage() throws Throwable {
+        steps.rememberInformationOffAllProductsOnListPage();
+    }
+
     @Then("^products on checkout page are correct$")
     public void productsOnCheckoutPageAreCorrect() throws Throwable {
         steps.verifyProductsOnCheckOutPage();
@@ -99,5 +104,15 @@ public class ShoppingCartDefinitionSteps {
     @When("^click on \"([^\"]*)\" link$")
     public void clickOnLinkInCartHeader(String arg0) throws Throwable {
         steps.clickOnLinkInCartHeader(arg0);
+    }
+
+    @Then("^saved product is present in list$")
+    public void savedProductIsPresentInList() throws Throwable {
+        steps.verifyProductDataOnCartPAge();
+    }
+
+    @Then("^products on restored checkout page are correct$")
+    public void productsOnRestoredCheckoutPageAreCorrect() throws Throwable {
+        steps.productsOnRestoredCheckoutPageAreCorrect();
     }
 }

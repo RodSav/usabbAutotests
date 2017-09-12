@@ -204,19 +204,19 @@ public class ShoppingCartPage extends PageObject {
             results.add("Wrong Name of product, Expected: " + productInformation.get("Name") +
                     " Found: " + findAll(ShoppingCartLocators.ALL_PRODUCTS_NAME).get(0).getText());
         }
-        if (!findAll(ShoppingCartLocators.ALL_PRODUCTS_CODE).get(0).getText().equalsIgnoreCase(productInformation.get("SKU"))) {
-            results.add("Wrong SKU of product, Expected: " + productInformation.get("SKU") +
-                    " Found: " + findAll(ShoppingCartLocators.ALL_PRODUCTS_CODE).get(0).getText());
-        }
-        if (!findAll(ShoppingCartLocators.ALL_PRODUCTS_DESCRIPTION).get(0).getText().equalsIgnoreCase(productInformation.get("LongDescription"))) {
-            results.add("Wrong LongDescription of product, Expected: " + productInformation.get("LongDescription") +
-                    " Found: " + findAll(ShoppingCartLocators.ALL_PRODUCTS_DESCRIPTION).get(0).getText());
-        }
-        if (!productInformation.get("ToolsAssembly").toLowerCase()
-                .contains(findAll(ShoppingCartLocators.ALL_ASSEMBLY_REQUIRED).get(0).getText().toLowerCase())) {
-            results.add("Wrong ToolsAssembly of product, Expected: " + productInformation.get("ToolsAssembly") +
-                    " Found: " + findAll(ShoppingCartLocators.ALL_ASSEMBLY_REQUIRED).get(0).getText());
-        }
+//        if (!findAll(ShoppingCartLocators.ALL_PRODUCTS_CODE).get(0).getText().equalsIgnoreCase(productInformation.get("SKU"))) {
+//            results.add("Wrong SKU of product, Expected: " + productInformation.get("SKU") +
+//                    " Found: " + findAll(ShoppingCartLocators.ALL_PRODUCTS_CODE).get(0).getText());
+//        }
+//        if (!findAll(ShoppingCartLocators.ALL_PRODUCTS_DESCRIPTION).get(0).getText().equalsIgnoreCase(productInformation.get("LongDescription"))) {
+//            results.add("Wrong LongDescription of product, Expected: " + productInformation.get("LongDescription") +
+//                    " Found: " + findAll(ShoppingCartLocators.ALL_PRODUCTS_DESCRIPTION).get(0).getText());
+//        }
+//        if (!productInformation.get("ToolsAssembly").toLowerCase()
+//                .contains(findAll(ShoppingCartLocators.ALL_ASSEMBLY_REQUIRED).get(0).getText().toLowerCase())) {
+//            results.add("Wrong ToolsAssembly of product, Expected: " + productInformation.get("ToolsAssembly") +
+//                    " Found: " + findAll(ShoppingCartLocators.ALL_ASSEMBLY_REQUIRED).get(0).getText());
+//        }
         if (!$(ShoppingCartLocators.ALL_QUANTITY_INPUT.replace("$1", "0"))
                 .getValue().equalsIgnoreCase(productInformation.get("Quantity"))) {
             results.add("Wrong Quantity of product, Expected: " + productInformation.get("Quantity") +

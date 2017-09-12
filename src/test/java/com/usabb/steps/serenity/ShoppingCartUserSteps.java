@@ -2,6 +2,7 @@ package com.usabb.steps.serenity;
 
 import com.usabb.pages.GlobalElements;
 import com.usabb.pages.ShoppingCartPage;
+import com.usabb.pages.SavedListsPage;
 import com.usabb.utils.SoftAssert;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -14,10 +15,16 @@ public class ShoppingCartUserSteps extends ScenarioSteps {
 
     ShoppingCartPage shoppingCartPage;
     GlobalElements globalElements;
+    SavedListsPage savedListsPage;
 
     @Step
     public void rememberInformationOffAllProductsOnCartPage() {
         shoppingCartPage.rememberInformationOffAllProductsOnCartPage();
+    }
+
+    @Step
+    public void rememberInformationOffAllProductsOnListPage() {
+        savedListsPage.rememberInformationOffAllProductsOnListPage();
     }
 
     @Step
@@ -122,5 +129,9 @@ public class ShoppingCartUserSteps extends ScenarioSteps {
 
     public void clickOnLinkInCartHeader(String arg0) {
         shoppingCartPage.clickOnLinkInCartHeader(arg0);
+    }
+
+    public void productsOnRestoredCheckoutPageAreCorrect() {
+        savedListsPage.verifyProductsOnRestoredListToCart();
     }
 }

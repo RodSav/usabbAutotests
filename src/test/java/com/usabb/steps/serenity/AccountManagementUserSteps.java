@@ -73,6 +73,14 @@ public class AccountManagementUserSteps extends ScenarioSteps {
     }
 
     @Step
+    public void verifyThatSavedListIsShownOnThePage(String arg0) {
+        Assert.assertTrue("The saved list - " + arg0 + " is not shown on the Saved Lists page", managementPage.getSavedCartPresentStatus(arg0));
+        String currentDate = CommonUtils.getCurrentDate();
+        SoftAssert.assertTrue("Wrong saved list date. Expected: " + currentDate + ", but Found: " + managementPage.getCreationDateOfCart(arg0),
+                currentDate.equals(managementPage.getCreationDateOfCart(arg0)));
+    }
+
+    @Step
     public void removeAllSavedCarts() {
         managementPage.removeAllSavedCarts();
     }

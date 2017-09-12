@@ -14,7 +14,9 @@ public interface CommonElementsLocators {
     String CONTENT_ON_A_PAGE = "//div[@class='content']";
     String WRONG_LOGIN_ERROR_MESSAGE = "//span[contains(@class,'loginErrorLabel')]";
     String TEXT_OF_ALERT = "//button[@data-dismiss='alert']/..";
-    String BUTTON_IN_MODAL_WITH_NAME = "(//button[contains(text(),'$1')])";
+    String BUTTON_IN_MODAL_WITH_NAME = ".//*[@id='cboxLoadedContent']//a[contains(text(), '$1')]";
+
+//    String BUTTON_IN_MODAL_WITH_NAME = "(//button[contains(text(),'$1')])";
     String DELETE_BUTTON_IN_MODAL = "(//div[@id='cboxLoadedContent']//button)[1]";
     String EMPTY_CONTENT_MESSAGE = "//div[contains(@class,'content-empty')]";
     String HEADER_TEXT_OF_MODAL = "//span[@class='headline-text']";

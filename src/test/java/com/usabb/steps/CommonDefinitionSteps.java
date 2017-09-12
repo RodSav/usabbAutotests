@@ -2,6 +2,7 @@ package com.usabb.steps;
 
 import com.usabb.locators.SiteData;
 import com.usabb.steps.serenity.CommonUserSteps;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -103,5 +104,10 @@ public class CommonDefinitionSteps {
     @Then("^validation message \"([^\"]*)\" is shown for \"([^\"]*)\" field$")
     public void validationMessageIsShownForField(String arg0, String arg1) throws Throwable {
         steps.verifyValidationMessageForField(arg0, arg1);
+    }
+
+    @When("^click on \"([^\"]*)\" modal action button$")
+    public void clickOnModalActionButton(String arg0) throws Throwable {
+        steps.clickOnButtonInModalAction(arg0);
     }
 }

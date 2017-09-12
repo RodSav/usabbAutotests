@@ -61,7 +61,7 @@ public class ProductDetailsPageUserSteps extends ScenarioSteps {
 
                 SoftAssert.assertTrue("The Cart header sign is missed",
                         "Added to Your Shopping Cart".equals(productDetailsPage.getModalHeaderSign()));
-                SoftAssert.assertTrue("The CheckOut button is missed", productDetailsPage.getDisplayStatusOfButton("Check Out"));
+                SoftAssert.assertTrue("The CheckOut button is missed", productDetailsPage.getDisplayStatusOfButton("Continue to Checkout"));
                 SoftAssert.assertTrue("The Close button is missed", productDetailsPage.getDisplayStatusOfCloseButton());
                 /*TODO return changes after prices will be done
                 SoftAssert.assertTrue("Wrong Name of product", prodName.equalsIgnoreCase(productDetailsPage.getProductNameInModal()));
