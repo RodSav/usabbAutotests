@@ -117,8 +117,8 @@ Feature: Smoke Check List
     When open any category
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Check Out" button
-    When click on "Check Out" button
+    When click on "Continue to Checkout" button
+    When click on "Continue to Checkout" button
     When select "Card Payment" radio button
     When click on "Next" button
     When select "United States" in "Country" drop-down

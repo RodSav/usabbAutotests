@@ -8,12 +8,12 @@ Feature: Save Shopping Cart
     When click on "Saved Carts" in My Account drop-down
     Then the "Saved Carts" my account page is opened
 
-  @SaveCart
-  Scenario: Remove all from saved carts
-    Given open the site and login
-    When click on "My Account" link in header
-    When click on "Saved Carts" in My Account drop-down
-    Then delete all saved carts
+#  @SaveCart
+#  Scenario: Remove all from saved carts
+#    Given open the site and login
+#    When click on "My Account" link in header
+#    When click on "Saved Carts" in My Account drop-down
+#    Then delete all saved carts
 
   @SaveCart @Rail_9819
   Scenario: Verify that cart can be saved and shown on saved carts page
@@ -21,7 +21,7 @@ Feature: Save Shopping Cart
     When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Check Out" button
+    When click on "Continue to Checkout" button
     When remember products information on checkout page
     When click on "New Cart" link
     When enter "TestCart1" in the "Name" field
@@ -37,7 +37,7 @@ Feature: Save Shopping Cart
     When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Check Out" button
+    When click on "Continue to Checkout" button
     When remember products information on checkout page
     When click on "New Cart" button
     When enter "TestRestore" in the "Name" field
@@ -56,7 +56,7 @@ Feature: Save Shopping Cart
     When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Check Out" button
+    When click on "Continue to Checkout" button
     When click on "New Cart" button
     When enter "TestUpdate" in the "Name" field
     When enter "TestDescriptionUpdate" in the "Description" textarea
@@ -73,13 +73,13 @@ Feature: Save Shopping Cart
     Then the cart "TestUpdateTest" is presented on saved cart page
     Then the description of "TestUpdateTest" cart is "TestDescriptionUpdateTest"
 
-  @SaveCart
+  @SaveCart @Rail_13126
   Scenario: Verify that saved cart can be removed
     Given open the site and login
     When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
     When click on "Add to cart" button
-    When click on "Check Out" button
+    When click on "Continue to Checkout" button
     When click on "New Cart" button
     When enter "TestRemove" in the "Name" field
     When enter "TestDescriptionRemove" in the "Description" textarea

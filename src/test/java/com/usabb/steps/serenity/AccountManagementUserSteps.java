@@ -148,6 +148,11 @@ public class AccountManagementUserSteps extends ScenarioSteps {
                 SoftAssert.assertAll();
                 break;
             }
+            case "Saved Lists": {
+                commonPagesCheck(pageName);
+                SoftAssert.assertAll();
+                break;
+            }
             default:
                 Assert.assertTrue("Wrong page name to check", false);
         }
