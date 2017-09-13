@@ -101,4 +101,8 @@ public class CommonElementsPage extends PageObject {
     public String getValidationMessageOfFieldWithLabel(String arg1) {
         return $(CommonElementsLocators.FIELD_ALERT_BY_LABEL.replace("$1", arg1)).getText();
     }
+
+    public void closeAModal() {
+        $(CommonElementsLocators.CBOX_CLOSE).click();
+    }
 }

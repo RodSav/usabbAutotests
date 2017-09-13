@@ -10,4 +10,6 @@ public interface SavedListsLocators {
     String ALL_QUANTITY_INPUT = "//input[@name='quantity']";
     String ALL_PRODUCTS_FOR_COUNT = "//li[@class='item__list--item']";
     String BUTTON_IN_MODAL_WITH_NAME = "(//button[contains(text(),'$1')])";
+    String FIELD_BY_LABEL = "(//label[contains(text(),'$1')]/following-sibling::input)[2]";
+
 }

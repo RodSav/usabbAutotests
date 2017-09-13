@@ -57,4 +57,11 @@ public class SavedListsPage extends PageObject {
         }
         return results;
     }
+
+    public void enterTheValueInTheListModalFieldWithLabel(String arg0, String arg1) {
+        WebElementFacade field = $(SavedListsLocators.FIELD_BY_LABEL.replace("$1", arg1));
+        withTimeoutOf(5, TimeUnit.SECONDS).waitFor(ExpectedConditions.visibilityOf(field));
+        field.clear();
+        field.sendKeys(arg0);
+    }
 }

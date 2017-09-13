@@ -110,4 +110,14 @@ public class CommonDefinitionSteps {
     public void clickOnModalActionButton(String arg0) throws Throwable {
         steps.clickOnButtonInModalAction(arg0);
     }
+
+    @When("^closing a modal$")
+    public void closingAModal() throws Throwable {
+        steps.closeAModal();
+    }
+
+    @When("^enter \"([^\"]*)\" in the \"([^\"]*)\" wishlist field$")
+    public void enterInTheWishlistField(String arg0, String arg1) throws Throwable {
+        steps.enterTheWishListField(arg0, arg1);
+    }
 }

@@ -22,7 +22,7 @@ Feature: Save To List
     When click on "1" product image in list
     When remember product data on pdp
     When click on "Add to Wishlist" button
-    When select "Create a Wishlist" radio button
+#    When select "Create a Wishlist" radio button
     When enter "WishListName1" in the "Create a Wishlist" field in modal
     When click on "Add to Wishlist" modal button
     When click on "View Wishlist" modal button
@@ -46,17 +46,25 @@ Feature: Save To List
     When click on "Restore" modal action button
     Then products on restored checkout page are correct
 
-    ####
-
-  @SaveCart @Rail_9820
-  Scenario: Verify that saved cart can be updated
+  @SaveList
+  Scenario: Verify that saved list can be updated
     Given open the site and login
     When click on "Screwdrivers" in navigation menu
     When click on "1" product image in list
-    When click on "Add to cart" button
-    When click on "Check Out" button
-    When click on "New Cart" button
-    When enter "TestUpdate" in the "Name" field
+    When click on "Add to Wishlist" button
+    When select "Create a Wishlist" radio button
+    When enter "WishListUpdate" in the "Create a Wishlist" field in modal
+    When click on "Add to Wishlist" modal button
+    When closing a modal
+    When click on "My Account" link in header
+    When click on "Saved Lists" in My Account drop-down
+    When click on "WishListUpdate" saved cart
+    When click on "Edit" button
+    When enter "ListUpdateTest" in the "Name" wishlist field
+    When enter "TestDescriptionUpdateTest" in the "Description" wishlist field
+    When click on "Submit" button
+
+
     When enter "TestDescriptionUpdate" in the "Description" textarea
     When click on "Save" modal button
     Then alert with text "Cart TestUpdate was successfully saved" is shown
@@ -70,6 +78,30 @@ Feature: Save To List
     When click on "Back to Saved Carts" button
     Then the cart "TestUpdateTest" is presented on saved cart page
     Then the description of "TestUpdateTest" cart is "TestDescriptionUpdateTest"
+
+
+#  @SaveCart @Rail_9820
+#  Scenario: Verify that saved cart can be updated
+#    Given open the site and login
+#    When click on "Screwdrivers" in navigation menu
+#    When click on "1" product image in list
+#    When click on "Add to cart" button
+#    When click on "Check Out" button
+#    When click on "New Cart" button
+#    When enter "TestUpdate" in the "Name" field
+#    When enter "TestDescriptionUpdate" in the "Description" textarea
+#    When click on "Save" modal button
+#    Then alert with text "Cart TestUpdate was successfully saved" is shown
+#    When click on "Saved Carts (" button
+#    When click on "TestUpdate" saved cart
+#    When click on "Edit" button
+#    When enter "TestUpdateTest" in the "Name" field
+#    When enter "TestDescriptionUpdateTest" in the "Description" textarea
+#    When save edited cart
+#    Then alert with text "Cart TestUpdateTest was successfully updated" is shown
+#    When click on "Back to Saved Carts" button
+#    Then the cart "TestUpdateTest" is presented on saved cart page
+#    Then the description of "TestUpdateTest" cart is "TestDescriptionUpdateTest"
 
   @SaveCart @Rail_13126
   Scenario: Verify that saved cart can be removed

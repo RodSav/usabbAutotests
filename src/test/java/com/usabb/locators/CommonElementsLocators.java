@@ -21,4 +21,5 @@ public interface CommonElementsLocators {
     String EMPTY_CONTENT_MESSAGE = "//div[contains(@class,'content-empty')]";
     String HEADER_TEXT_OF_MODAL = "//span[@class='headline-text']";
     String CBOX_CONTRACT_EXPIRED_CLOSE_BUTTON = "//*[@id='cboxClose']";
+    String CBOX_CLOSE = "//*[@id='cboxClose']";
 }

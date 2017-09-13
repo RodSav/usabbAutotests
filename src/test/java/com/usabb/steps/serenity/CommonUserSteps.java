@@ -149,4 +149,12 @@ public class CommonUserSteps extends ScenarioSteps {
     public void clickOnButtonInModalAction(String arg0) {
         savedListsPage.clickOnButtonInModalAction(arg0);
     }
+
+    public void closeAModal() {
+        commonElementsPage.closeAModal();
+    }
+
+    public void enterTheWishListField(String arg0, String arg1) {
+        savedListsPage.enterTheValueInTheListModalFieldWithLabel(arg0, arg1);
+    }
 }
