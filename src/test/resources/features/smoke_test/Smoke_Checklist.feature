@@ -13,7 +13,7 @@ Feature: Smoke Check List
   @Smoke @Precondition
   Scenario: Preconditions for PIM tests
     Given open the site and login
-    When click on "Screwdrivers" in navigation menu
+    When click on "Sanders" in navigation menu
     When click on "1" product image in list
     When remember product data on pdp
     Then remember page url
