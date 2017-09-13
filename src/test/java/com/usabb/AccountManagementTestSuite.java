@@ -22,7 +22,6 @@ import org.junit.runner.RunWith;
         "src/test/resources/features/account_management/ACT17_MyAccountViewOptions.feature",
         "src/test/resources/features/account_management/ACT18_TrackingInformation.feature",
         "src/test/resources/features/account_management/ACT19_StaticEmailAddress.feature",
-        "src/test/resources/features/account_management/ACT21_ViewSavedCarts.feature",
         "src/test/resources/features/account_management/SavedLists.feature"
 })
 public class AccountManagementTestSuite {
